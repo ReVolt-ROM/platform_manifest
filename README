@@ -1,0 +1,6 @@
+Build ReVolt ROM
+----------------
+
+1) Sync ReVolt ROM Sources
+$ repo init -u https://github.com/ReVolt-ROM/platform_manifest.git -b jb-mr1
+$ repo sync
