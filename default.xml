@@ -40,7 +40,6 @@
   <project path="development" name="platform/development" />
   <project path="device/asus/grouper" name="AOKP/device_asus_grouper" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/n7100" name="AOKP/device_samsung_n7100" remote="mithun46" revision="master" />
-  <project path="device/samsung/smdk4412-common" name="AOKP/device_samsung_smdk4412-common" remote="mithun46" revision="master" />
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.1" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
@@ -281,7 +280,6 @@
   <project path="kernel/asus/grouper" name="kernel/tegra" remote="aosp" revision="android-tegra3-grouper-3.1-jb-mr1.1" />
   <project path="kernel/lge/mako" name="kernel_lge_mako" remote="revolt" revision="enhanced_stock" />
   <project path="kernel/samsung/smdk4210" name="android_kernel_samsung_smdk4210" remote="cm" revision="cm-10.1" />
-  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/t1" name="android_kernel_samsung_t1" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="cm" revision="cm-10.1" />
 
