@@ -6,14 +6,14 @@
            review="https://android-review.googlesource.com/" />
 
   <remote  name="aokp"
-           fetch="https://github.com/"
+           fetch="https://github.com/AOKP/"
            review="gerrit.sudoservers.com" />
 
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/"
            review="review.cyanogenmod.com" />
            
-  <remote name="gh"
+  <remote name="github"
           fetch="https://github.com/" />
 
   <remote name="revolt"
@@ -38,7 +38,7 @@
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="dalvik" remote="aokp" revision="jb-mr1" /> 
   <project path="development" name="platform/development" />
-  <project path="device/asus/grouper" name="AOKP/device_asus_grouper" remote="aokp" revision="jb-mr1" />
+  <project path="device/asus/grouper" name="device_asus_grouper" remote="aokp" revision="jb-mr1" />
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.1" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
@@ -48,19 +48,19 @@
   <project path="device/generic/x86" name="device/generic/x86" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/lge/mako" name="AOKP/device_lge_mako" remote="aokp" revision="jb-mr1" />
+  <project path="device/lge/mako" name="device_lge_mako" remote="aokp" revision="jb-mr1" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/galaxys2-common" name="AOKP/device_samsung_galaxys2-common" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/i9100" name="AOKP/device_samsung_i9100" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/i9100g" name="AOKP/device_samsung_i9100g" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/i9300" name="AOKP/device_samsung_i9300" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/msm8660-common" name="AOKP/device_samsung_msm8660-common" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/msm8960-common" name="AOKP/device_samsung_msm8960-common" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/galaxys2-common" name="device_samsung_galaxys2-common" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/i9100" name="device_samsung_i9100" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/i9100g" name="device_samsung_i9100g" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/i9300" name="device_samsung_i9300" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/msm8660-common" name="device_samsung_msm8660-common" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/omap4-common" name="android_device_samsung_omap4-common" remote="cm" revision="cm-10.1" />
-  <project path="device/samsung/smdk4412-common" name="AOKP/device_samsung_smdk4412-common" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/maguro" name="AOKP/device_samsung_maguro" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/tuna" name="AOKP/device_samsung_tuna" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/qcom-common" name="AOKP/device_samsung_qcom-common" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/smdk4412-common" name="device_samsung_smdk4412-common" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/maguro" name="device_samsung_maguro" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/tuna" name="device_samsung_tuna" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="aokp" revision="jb-mr1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -75,7 +75,7 @@
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="AOKP/external_bluetooth_bluedroid" remote="aokp" revision="jb-mr1" />
+  <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="aokp" revision="jb-mr1" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-10.1" />
@@ -89,10 +89,10 @@
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
-  <project path="external/dnsmasq" name="AOKP/external_dnsmasq" remote="aokp" revision="jb-mr1" />
-  <project path="external/doclava" name="ParanoidAndroid/android_external_doclava" remote="gh" revision="jellybean" />
+  <project path="external/dnsmasq" name="external_dnsmasq" remote="aokp" revision="jb-mr1" />
+  <project path="external/doclava" name="ParanoidAndroid/android_external_doclava" remote="github" revision="jellybean" />
   <project path="external/dropbear" name="platform/external/dropbear" />
-  <project path="external/e2fsprogs" name="AOKP/external_e2fsprogs" remote="aokp" revision="jb-mr1" />
+  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="aokp" revision="jb-mr1" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
@@ -129,7 +129,7 @@
   <project path="external/jhead" name="platform/external/jhead" />
   <project path="external/jmdns" name="platform/external/jmdns" />
   <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" />
-  <project path="external/jpeg" name="AOKP/external_jpeg" remote="aokp" revision="jb-mr1" />
+  <project path="external/jpeg" name="external_jpeg" remote="aokp" revision="jb-mr1" />
   <project path="external/jsilver" name="platform/external/jsilver" />
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
@@ -145,7 +145,7 @@
   <project path="external/libogg" name="platform/external/libogg" />
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" />
-  <project path="external/libpng" name="AOKP/external_libpng" remote="aokp" revision="jb-mr1" />
+  <project path="external/libpng" name="external_libpng" remote="aokp" revision="jb-mr1" />
   <project path="external/libppp" name="platform/external/libppp" />
   <project path="external/libselinux" name="platform/external/libselinux" />
   <project path="external/libsepol" name="platform/external/libsepol" />
@@ -188,13 +188,13 @@
   <project path="external/protobuf" name="platform/external/protobuf" />
   <project path="external/qemu" name="platform/external/qemu" />
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" />
-  <project path="external/qrngd" name="AOKP/external_qrngd" remote="aokp" revision="jb-mr1" />
+  <project path="external/qrngd" name="external_qrngd" remote="aokp" revision="jb-mr1" />
   <project path="external/quake" name="platform/external/quake" />
   <project path="external/regex-re2" name="platform/external/regex-re2" />
   <project path="external/replicaisland" name="platform/external/replicaisland" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/sepolicy" name="platform/external/sepolicy" />
-  <project path="external/skia" name="AOKP/external_skia" remote="aokp" revision="jb-mr1" />
+  <project path="external/skia" name="external_skia" remote="aokp" revision="jb-mr1" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
@@ -213,7 +213,7 @@
   <project path="external/tremolo" name="platform/external/tremolo" />
   <project path="external/v8" name="platform/external/v8" />
   <project path="external/valgrind" name="platform/external/valgrind" />
-  <project path="external/webkit" name="AOKP/external_webkit" remote="aokp" revision="jb-mr1" />
+  <project path="external/webkit" name="external_webkit" remote="aokp" revision="jb-mr1" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
@@ -224,7 +224,7 @@
   <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="cm-10.1" />
   <project path="external/zlib" name="android_external_zlib" remote="cm" revision="cm-10.1" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="AOKP/frameworks_av" remote="aokp" revision="jb-mr1" />
+  <project path="frameworks/av" name="frameworks_av" remote="aokp" revision="jb-mr1" />
   <project path="frameworks/base" name="frameworks_base" remote="revolt" revision="jb-mr1" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
@@ -244,7 +244,7 @@
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="cm" revision="cm-10.1" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
-  <project path="frameworks/rs" name="AOKP/frameworks_rs" remote="aokp" revision="jb-mr1" />
+  <project path="frameworks/rs" name="frameworks_rs" remote="aokp" revision="jb-mr1" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
@@ -264,7 +264,7 @@
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" />
-  <project path="hardware/qcom/power" name="AOKP/hardware_qcom_power" remote="aokp" revision="jb-mr1" />
+  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="aokp" revision="jb-mr1" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" />
   <project path="hardware/ril" name="android_hardware_ril" remote="cm" revision="cm-10.1" />
@@ -287,21 +287,21 @@
 
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
-  <project path="packages/apps/Browser" name="AOKP/packages_apps_Browser" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/Browser" name="packages_apps_Browser" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="packages_apps_Camera" remote="revolt" revision="jb-mr1" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="AOKP/packages_apps_Contacts" remote="aokp" revision="jb-mr1" />
-  <project path="packages/apps/DeskClock" name="AOKP/packages_apps_DeskClock" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
-  <project path="packages/apps/Launcher2" name="AOKP/packages_apps_Launcher2" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/Launcher2" name="packages_apps_Launcher2" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cm" revision="cm-10.1" />
@@ -309,14 +309,14 @@
   <project path="packages/apps/Mms" name="packages_apps_Mms" remote="revolt" revision="jb4.2" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
-  <project path="packages/apps/Nfc" name="AOKP/packages_apps_Nfc" remote="aokp" revision="jb-mr1" />
-  <project path="packages/apps/PackageInstaller" name="AOKP/packages_apps_PackageInstaller" remote="aokp" revision="jb-mr1" />
-  <project path="packages/apps/PerformanceControl" name="AOKP/packages_apps_PerformanceControl" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/PerformanceControl" name="packages_apps_PerformanceControl" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Phone" name="packages_apps_Phone" remote="revolt" revision="jb-mr1" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/ROMControl" name="packages_apps_ROMControl" remote="revolt" revision="jb-mr1" />
-  <project path="packages/apps/QuickSearchBox" name="AOKP/packages_apps_QuickSearchBox" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/QuickSearchBox" name="packages_apps_QuickSearchBox" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="revolt" revision="jb-mr1" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
@@ -326,15 +326,15 @@
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
-  <project path="packages/apps/VoiceDialer" name="AOKP/packages_apps_VoiceDialer" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/VoiceDialer" name="packages_apps_VoiceDialer" remote="aokp" revision="jb-mr1" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="AOKP/packages_input_LatinIME" remote="aokp" revision="jb-mr1" />
+  <project path="packages/inputmethods/LatinIME" name="packages_input_LatinIME" remote="aokp" revision="jb-mr1" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="AOKP/packages_providers_ContactsProvider" remote="aokp" revision="jb-mr1" />
-  <project path="packages/providers/DownloadProvider" name="AOKP/packages_providers_DownloadProvider" remote="aokp" revision="jb-mr1" />
+  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="aokp" revision="jb-mr1" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="aokp" revision="jb-mr1" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
@@ -380,26 +380,26 @@
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="system_core" remote="revolt" revision="jb-mr1" />
-  <project path="system/extras" name="AOKP/system_extras" remote="aokp" revision="jb-mr1" />
+  <project path="system/extras" name="system_extras" remote="aokp" revision="jb-mr1" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
-  <project path="system/vold" name="AOKP/system_vold" remote="aokp" revision="jb-mr1" />
+  <project path="system/vold" name="system_vold" remote="aokp" revision="jb-mr1" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
 
 
   <project path="vendor/revolt" name="vendor_revolt" remote="revolt" revision="jb-mr1" />
-  <project path="vendor/lge" name="AOKP/vendor_lge" remote="aokp" revision="jb-mr1" />
+  <project path="vendor/lge" name="vendor_lge" remote="aokp" revision="jb-mr1" />
   <project path="vendor/samsung" name="vendor_samsung" remote="revolt" revision="jb-mr1" />
-  <project path="vendor/asus" name="AOKP/vendor_asus" remote="aokp" revision="jb-mr1" />
+  <project path="vendor/asus" name="vendor_asus" remote="aokp" revision="jb-mr1" />
 
-  <project path="vendor/tmobile/apps/ThemeChooser" name="AOKP/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr1" />
+  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr1" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
 
-  <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb-mr1" />
+  <project path="packages/wallpapers/SwagPapers" name="packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb-mr1" />
 
   <project path="platform_manifest" name="platform_manifest" remote="revolt" revision="jb-mr1" />
 </manifest>
