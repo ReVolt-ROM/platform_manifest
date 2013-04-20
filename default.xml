@@ -50,10 +50,11 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/mako" name="device_lge_mako" remote="aokp" revision="jb-mr1" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/galaxys2-common" name="device_samsung_galaxys2-common" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/galaxys2-common" name="device_samsung_galaxys2-common" remote="revolt" revision="jb-mr1" />
   <project path="device/samsung/i9100" name="device_samsung_i9100" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/i9100g" name="device_samsung_i9100g" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/i9300" name="device_samsung_i9300" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/d710" name="device_samsung_d710" remote="revolt" revision="cm-10.1" />
   <project path="device/samsung/msm8660-common" name="device_samsung_msm8660-common" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/omap4-common" name="android_device_samsung_omap4-common" remote="cm" revision="cm-10.1" />
@@ -281,7 +282,7 @@
   
   <project path="kernel/asus/grouper" name="kernel/tegra" remote="aosp" revision="android-tegra3-grouper-3.1-jb-mr1.1" />
   <project path="kernel/lge/mako" name="mako" remote="revolt" revision="enhanced_stock" />
-  <project path="kernel/samsung/smdk4210" name="android_kernel_samsung_smdk4210" remote="cm" revision="cm-10.1" />
+  <project path="kernel/samsung/smdk4210" name="android_kernel_samsung_smdk4210" remote="revolt" revision="cm-10.1" />
   <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/t1" name="android_kernel_samsung_t1" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/tuna" name="kernel/omap" remote="aosp" revision="android-omap-tuna-3.0-jb-mr1.1" />
@@ -316,7 +317,7 @@
   <project path="packages/apps/Phone" name="packages_apps_Phone" remote="revolt" revision="jb-mr1" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/ROMControl" name="packages_apps_ROMControl" remote="revolt" revision="jb-mr1" />
+  <project path="packages/apps/ReVoltControl" name="packages_apps_ReVoltControl" remote="revolt" revision="jb-mr1" />
   <project path="packages/apps/QuickSearchBox" name="packages_apps_QuickSearchBox" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="revolt" revision="jb-mr1" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
