@@ -58,6 +58,12 @@
   <project path="device/samsung/i9100g" name="device_samsung_i9100g" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/i9300" name="device_samsung_i9300" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/d710" name="device_samsung_d710" remote="revolt" revision="cm-10.1" />
+  <project path="device/samsung/jfltetmo" name="android_device_samsung_jfltetmo" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/jfltecan" name="android_device_samsung_jfltecan" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/jf-common" name="android_device_samsung_jf-common" remote="cm" revision="cm-10.1" />
+  <project path="device/htc/m7" name="codeworkx/android_device_htc_m7" remote="github" revision="cm-10.1" />
+  <project path="device/htc/m7-common" name="codeworkx/android_device_htc_m7-common" remote="github" revision="cm-10.1" />
+  <project path="device/oppo/find5" name="teamgruntled/android_device_oppo_find5" remote="github" revision="cm-10.1" />
   <project path="device/samsung/msm8660-common" name="device_samsung_msm8660-common" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/omap4-common" name="android_device_samsung_omap4-common" remote="cm" revision="cm-10.1" />
@@ -288,7 +294,10 @@
   <project path="kernel/samsung/smdk4210" name="kernel_samsung_smdk4210" remote="revolt" revision="jb-mr1" />
   <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/t1" name="android_kernel_samsung_t1" remote="cm" revision="cm-10.1" />
-  <project path="kernel/samsung/tuna" name="kernel/omap" remote="aosp" revision="android-omap-tuna-3.0-jb-mr1.1" />
+  <project path="kernel/samsung/tuna" name="kernel/omap" remote="aosp" revision="android-omap-tuna-3.0-jb-mr1.1" /> 
+  <project path="kernel/samsung/jf" name="android_kernel_samsung_jf" remote="cm" revision="cm-10.1" />
+  <project path="kernel/htc/m7" name="codeworkx/android_kernel_htc_m7" remote="github" revision="cm-10.1" />
+  <project path="kernel/oppo/find5" name="teamgruntled/android_kernel_oppo_find5" remote="github" revision="cm-10.1" />
 
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
@@ -317,7 +326,6 @@
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="aokp" revision="jb-mr1" />
-  <project path="packages/apps/PermissionsManager" name="packages_apps_PermissionsManager" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Phone" name="packages_apps_Phone" remote="revolt" revision="jb-safe" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
@@ -396,8 +404,10 @@
 
   <project path="vendor/revolt" name="vendor_revolt" remote="revolt" revision="jb-mr1" />
   <project path="vendor/lge" name="vendor_lge" remote="aokp" revision="jb-mr1" />
-  <project path="vendor/samsung" name="vendor_samsung" remote="revolt" revision="jb-mr1" />
+  <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="github" revision="cm-10.1" />
+  <project path="vendor/htc/m7" name="codeworkx/android_vendor_htc_m7" remote="github" revision="cm-10.1" />
   <project path="vendor/asus" name="vendor_asus" remote="aokp" revision="jb-mr1" />
+  <project path="vendor/oppo" name="teamgruntled/proprietary_vendor_oppo" remote="github" revision="cm-10.1" />
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr1" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
