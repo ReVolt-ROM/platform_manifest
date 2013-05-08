@@ -64,7 +64,6 @@
   <project path="device/htc/m7" name="codeworkx/android_device_htc_m7" remote="github" revision="cm-10.1" />
   <project path="device/htc/m7-common" name="codeworkx/android_device_htc_m7-common" remote="github" revision="cm-10.1" />
   <project path="device/htc/apq8064-common" name="htc-msm8960/android_device_htc_apq8064-common" remote="github" revision="cm-10.1" />
-  <project path="device/htc/msm8960-common" name="htc-msm8960/android_device_htc_msm8960-common" remote="github" revision="cm-10.1" />
   <project path="device/oppo/find5" name="teamgruntled/android_device_oppo_find5" remote="github" revision="cm-10.1" />
   <project path="device/samsung/msm8660-common" name="device_samsung_msm8660-common" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="aokp" revision="jb-mr1" />
@@ -74,6 +73,7 @@
   <project path="device/samsung/tuna" name="device_samsung_tuna" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="aokp" revision="jb-mr1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
+
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
   <project path="external/android-mock" name="platform/external/android-mock" />
