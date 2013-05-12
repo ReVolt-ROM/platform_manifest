@@ -61,8 +61,8 @@
   <project path="device/samsung/jfltetmo" name="android_device_samsung_jfltetmo" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/jfltecan" name="android_device_samsung_jfltecan" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/jf-common" name="device_samsung_jf-common" remote="revolt" revision="jb-mr1" />
-  <project path="device/htc/m7" name="codeworkx/android_device_htc_m7" remote="github" revision="cm-10.1" />
-  <project path="device/htc/m7-common" name="device_htc_m7-common" remote="revolt" revision="jb-mr1" />
+  <project path="device/htc/m7" name="android_device_htc_m7" remote="cm" revision="cm-10.1" />
+  <project path="device/htc/m7-common" name="device_htc_m7-common" remote="cm" revision="cm-10.1" />
   <project path="device/htc/apq8064-common" name="htc-msm8960/android_device_htc_apq8064-common" remote="github" revision="cm-10.1" />
   <project path="device/oppo/find5" name="android_device_oppo_find5" remote="revolt" revision="cm-10.1" />
   <project path="device/samsung/msm8660-common" name="device_samsung_msm8660-common" remote="aokp" revision="jb-mr1" />
@@ -298,7 +298,7 @@
   <project path="kernel/samsung/t1" name="android_kernel_samsung_t1" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/jf" name="android_kernel_samsung_jf" remote="cm" revision="cm-10.1" />
-  <project path="kernel/htc/m7" name="codeworkx/android_kernel_htc_m7" remote="github" revision="cm-10.1" />
+  <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="cm" revision="cm-10.1" />
   <project path="kernel/oppo/find5" name="android_kernel_oppo_find5" remote="cm" revision="cm-10.1" />
 
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
