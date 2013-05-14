@@ -65,7 +65,6 @@
   <project path="device/samsung/jf-common" name="BMc08GT/device_samsung_jf-common" remote="github" revision="jb-mr1" />
   <project path="device/htc/m7" name="device_htc_m7" remote="aokp" revision="jb-mr1" />
   <project path="device/htc/m7-common" name="device_htc_m7-common" remote="aokp" revision="jb-mr1" />
-  <project path="device/htc/apq8064-common" name="htc-msm8960/android_device_htc_apq8064-common" remote="github" revision="cm-10.1" />
   <project path="device/htc/msm8960-common" name="htc-msm8960/android_device_htc_msm8960-common" remote="github" revision="cm-10.1" />
   <project path="device/oppo/find5" name="android_device_oppo_find5" remote="revolt" revision="cm-10.1" />
   <project path="device/samsung/msm8660-common" name="device_samsung_msm8660-common" remote="aokp" revision="jb-mr1" />
@@ -410,8 +409,7 @@
   <project path="vendor/revolt" name="vendor_revolt" remote="revolt" revision="jb-mr1" />
   <project path="vendor/lge" name="vendor_lge" remote="aokp" revision="jb-mr1" />
   <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="github" revision="cm-10.1" />
- <project path="vendor/htc/m7" name="htc-msm8960/android_vendor_htc_m7" remote="github" revision="cm-10.1" />
-<project path="vendor/htc/m7-common" name="htc-msm8960/android_vendor_htc_m7-common" remote="github" revision="cm-10.1" />
+  <project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="github" revision="cm-10.1" />
   <project path="vendor/asus" name="vendor_asus" remote="aokp" revision="jb-mr1" />
   <project path="vendor/oppo" name="TheMuppets/proprietary_vendor_oppo" remote="github" revision="cm-10.1" />
 
