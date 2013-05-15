@@ -58,7 +58,7 @@
   <project path="device/samsung/i9100g" name="device_samsung_i9100g" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/i9300" name="device_samsung_i9300" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/d710" name="device_samsung_d710" remote="revolt" revision="cm-10.1" />
-  <project path="device/samsung/i9500" name="Faryaab/android_device_samsung_i9500" remote="github" revision="cm-10.1" />
+  <project path="device/samsung/i9500" name="android_device_samsung_i9500" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/jfltetmo" name="android_device_samsung_jfltetmo" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/jfltecan" name="android_device_samsung_jfltecan" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/jflteusc" name="BMc08GT/device_samsung_jflteusc" remote="github" revision="jb-mr1" />
@@ -301,6 +301,7 @@
   <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/jf" name="android_kernel_samsung_jf" remote="cm" revision="cm-10.1" />
   <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="cm" revision="cm-10.1" />
+  <project path="kernel/samsung/exynos5410" name="android_kernel_samsung_exynos5410" remote="cm" revision="cm-10.1" />
   <project path="kernel/oppo/find5" name="android_kernel_oppo_find5" remote="cm" revision="cm-10.1" />
 
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
