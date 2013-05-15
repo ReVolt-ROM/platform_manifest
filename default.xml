@@ -64,8 +64,8 @@
   <project path="device/samsung/jflteusc" name="BMc08GT/device_samsung_jflteusc" remote="github" revision="jb-mr1" />
   <project path="device/samsung/jf-common" name="BMc08GT/device_samsung_jf-common" remote="github" revision="jb-mr1" />
   <project path="device/htc/m7" name="device_htc_m7" remote="aokp" revision="jb-mr1" />
-  <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="cm" revision="cm-10.1" />
-  <project path="device/htc/msm8960-common" name="htc-msm8960/android_device_htc_msm8960-common" remote="github" revision="cm-10.1" />
+  <project path="device/htc/m7-common" name="device_htc_m7-common" remote="aokp" revision="jb-mr1" />
+  <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="aokp" revision="jb-mr1" />
   <project path="device/oppo/find5" name="android_device_oppo_find5" remote="revolt" revision="cm-10.1" />
   <project path="device/samsung/msm8660-common" name="device_samsung_msm8660-common" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="aokp" revision="jb-mr1" />
