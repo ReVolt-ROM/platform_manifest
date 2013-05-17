@@ -71,6 +71,7 @@
   <project path="device/oppo/find5" name="android_device_oppo_find5" remote="revolt" revision="cm-10.1" />
   <project path="device/samsung/n8000" name="android_device_samsung_n8000" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/n80xx-common" name="android_device_samsung_n80xx-common" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/manta" name="android_device_samsung_manta" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/msm8660-common" name="device_samsung_msm8660-common" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/omap4-common" name="android_device_samsung_omap4-common" remote="cm" revision="cm-10.1" />
@@ -310,6 +311,7 @@
   <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/exynos5410" name="android_kernel_samsung_exynos5410" remote="cm" revision="cm-10.1" />
   <project path="kernel/oppo/find5" name="android_kernel_oppo_find5" remote="cm" revision="cm-10.1" />
+  <project path="kernel/samsung/manta" name="android_kernel_samsung_manta" remote="cm" revision="cm-10.1" />
   
   <!-- Applications -->
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
