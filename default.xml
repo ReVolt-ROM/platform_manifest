@@ -19,8 +19,8 @@
   <remote name="revolt"
           fetch="https://github.com/ReVolt-ROM/" />
           
-  <remote name="carbon"
-             fetch="git://github.com/CarbonDev/" />
+  <remote name="muppets"
+             fetch="git://github.com/TheMuppets/" />
 
   <remote  name="omapzoom"
            fetch="git://git.omapzoom.org/"
@@ -420,10 +420,12 @@
   <!-- Vendors -->
   <project path="vendor/revolt" name="vendor_revolt" remote="revolt" revision="jb-mr1" />
   <project path="vendor/lge" name="vendor_lge" remote="aokp" revision="jb-mr1" />
-  <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="github" revision="cm-10.1" />
-  <project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="github" revision="cm-10.1" />
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="muppets" revision="cm-10.1" />
+  <project path="vendor/htc" name="htc-msm8960/proprietary_vendor_htc" remote="github" revision="cm-10.1" />
   <project path="vendor/asus" name="vendor_asus" remote="aokp" revision="jb-mr1" />
-  <project path="vendor/oppo" name="TheMuppets/proprietary_vendor_oppo" remote="github" revision="cm-10.1" />
+  <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="muppets" revision="cm-10.1" />
+  <project path="vendor/audience" name="proprietary_vendor_audience" remote="muppets" revision="cm-10.1" />
+  <project path="vendor/oppo" name="proprietary_vendor_oppo" remote="muppets" revision="cm-10.1" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr1" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.1" />
