@@ -1,4 +1,4 @@
-REVOLT JELLY BEAN ROM
+ReVolt JB ROM
 ======================
 
 Syncing Sources
