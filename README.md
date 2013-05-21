@@ -13,7 +13,7 @@ then run to get the actual sources
 
 It might take a lot of time depending on your internet connection .. 
 
-# is replaced with threads you want to use
+ # is replaced with threads you want to use
 
 Building REVOLT ROM
 -------------------
