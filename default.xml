@@ -64,6 +64,7 @@
   <project path="device/samsung/jfltetmo" name="android_device_samsung_jfltetmo" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/jfltecan" name="android_device_samsung_jfltecan" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/jflteusc" name="BMc08GT/device_samsung_jflteusc" remote="github" revision="jb-mr1" />
+  <project path="device/samsung/jfltevzw" name="BMc08GT/device_samsung_jfltevzw" remote="github" revision="jb-mr1" />
   <project path="device/samsung/jfltespr" name="android_device_samsung_jfltespr" remote="revolt" revision="jb4.2" />
   <project path="device/samsung/jf-common" name="android_device_samsung_jf-common" remote="cm" revision="cm-10.1" />
   <project path="device/htc/m7" name="android_device_htc_m7" remote="cm" revision="cm-10.1" />
