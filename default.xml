@@ -83,6 +83,11 @@
   <project path="device/samsung/maguro" name="device_samsung_maguro" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/tuna" name="device_samsung_tuna" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="aokp" revision="jb-mr1" />
+  <project path="device/sony/odin" name="device_sony_odin" remote="aokp" revision="jb-mr1" />
+  <project path="device/sony/yuga" name="device_sony_yuga" remote="aokp" revision="jb-mr1" />
+  <project path="device/sony/fusion3-common" name="device_sony_fusion3-common" remote="aokp" revision="jb-mr1" />
+  <project path="device/sony/qcom-common" name="android_device_sony_qcom-common" remote="cm" revision="cm-10.1" />
+  <project path="device/sony/common" name="device_sony_common" remote="aokp" revision="jb-mr1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
 
   <project path="external/aac" name="platform/external/aac" />
@@ -313,10 +318,11 @@
   <project path="kernel/samsung/t1" name="android_kernel_samsung_t1" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/jf" name="android_kernel_samsung_jf" remote="cm" revision="cm-10.1" />
-  <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/exynos5410" name="android_kernel_samsung_exynos5410" remote="cm" revision="cm-10.1" />
-  <project path="kernel/oppo/find5" name="android_kernel_oppo_find5" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/manta" name="android_kernel_samsung_manta" remote="cm" revision="cm-10.1" />
+  <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="cm" revision="cm-10.1" />
+  <project path="kernel/oppo/find5" name="android_kernel_oppo_find5" remote="cm" revision="cm-10.1" />
+  <project path="kernel/sony/apq8064" name="android_kernel_sony_apq8064" remote="cm" revision="cm-10.1" />
   
   <!-- Applications -->
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
