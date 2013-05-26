@@ -59,6 +59,7 @@
   <project path="device/samsung/i9100" name="device_samsung_i9100" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/i9100g" name="device_samsung_i9100g" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/i9300" name="device_samsung_i9300" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/d710" name="device_samsung_d710" remote="revolt" revision="cm-10.1" />
   <project path="device/samsung/i9500" name="android_device_samsung_i9500" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/i9505" name="device_samsung_i9505" remote="revolt" revision="jb-mr1" />
@@ -316,6 +317,7 @@
   <project path="kernel/lge/mako" name="mako" remote="revolt" revision="enhanced_stock" />
   <project path="kernel/samsung/smdk4210" name="kernel_samsung_smdk4210" remote="revolt" revision="jb-mr1" />
   <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="cm" revision="cm-10.1" />
+  <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/t1" name="android_kernel_samsung_t1" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/jf" name="android_kernel_samsung_jf" remote="cm" revision="cm-10.1" />
