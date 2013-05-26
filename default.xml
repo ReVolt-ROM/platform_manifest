@@ -61,6 +61,7 @@
   <project path="device/samsung/i9300" name="device_samsung_i9300" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/d710" name="device_samsung_d710" remote="revolt" revision="cm-10.1" />
   <project path="device/samsung/i9500" name="android_device_samsung_i9500" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/i9505" name="device_samsung_i9505" remote="revolt" revision="jb-mr1" />
   <project path="device/samsung/jfltetmo" name="android_device_samsung_jfltetmo" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/jfltecan" name="android_device_samsung_jfltecan" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/jflteusc" name="device_samsung_jflteusc" remote="aokp" revision="jb-mr1" />
@@ -433,7 +434,7 @@
   <!-- Vendors -->
   <project path="vendor/revolt" name="vendor_revolt" remote="revolt" revision="jb-mr1" />
   <project path="vendor/lge" name="vendor_lge" remote="aokp" revision="jb-mr1" />
-  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="muppets" revision="cm-10.1" />
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="revolt" revision="cm-10.1" />
   <project path="vendor/htc" name="htc-msm8960/proprietary_vendor_htc" remote="github" revision="cm-10.1" />
   <project path="vendor/asus" name="vendor_asus" remote="aokp" revision="jb-mr1" />
   <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="muppets" revision="cm-10.1" />
