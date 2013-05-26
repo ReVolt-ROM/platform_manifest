@@ -438,6 +438,7 @@
   <project path="vendor/asus" name="vendor_asus" remote="aokp" revision="jb-mr1" />
   <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="muppets" revision="cm-10.1" />
   <project path="vendor/google" name="vendor_google" remote="revolt" revision="jb-mr1" />
+  <project path="vendor/sony" name="proprietary_vendor_sony" remote="muppets" revision="cm-10.1" />
   <project path="vendor/unbundled_google" name="vendor_unbundled_google" remote="revolt" revision="jb-mr1" />
   <project path="vendor/audience" name="proprietary_vendor_audience" remote="muppets" revision="cm-10.1" />
   <project path="vendor/oppo" name="proprietary_vendor_oppo" remote="muppets" revision="cm-10.1" />
