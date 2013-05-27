@@ -437,7 +437,7 @@
   <project path="vendor/revolt" name="vendor_revolt" remote="revolt" revision="jb-mr1" />
   <project path="vendor/lge" name="vendor_lge" remote="aokp" revision="jb-mr1" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="revolt" revision="cm-10.1" />
-  <project path="vendor/htc" name="htc-msm8960/proprietary_vendor_htc" remote="github" revision="cm-10.1" />
+  <project path="vendor/htc" name="proprietary_vendor_htc" remote="muppets" revision="cm-10.1" />
   <project path="vendor/asus" name="vendor_asus" remote="aokp" revision="jb-mr1" />
   <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="muppets" revision="cm-10.1" />
   <project path="vendor/google" name="vendor_google" remote="revolt" revision="jb-mr1" />
