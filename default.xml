@@ -314,7 +314,7 @@
   
   <!-- Kernels -->
   <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="cm" revision="cm-10.1" />
-  <project path="kernel/lge/mako" name="mako" remote="revolt" revision="enhanced_stock" />
+  <project path="kernel/lge/mako" name="mako" remote="revolt" revision="rb_jb_mr1.1" />
   <project path="kernel/samsung/smdk4210" name="kernel_samsung_smdk4210" remote="revolt" revision="jb-mr1" />
   <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="cm-10.1" />
