@@ -337,7 +337,7 @@
   <project path="packages/apps/Camera" name="packages_apps_Camera" remote="revolt" revision="jb-mr1" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="revolt" revision="jb-mr1" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="revolt" revision="revolt" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Email" name="packages_apps_Email" remote="revolt" revision="jb-mr1" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
