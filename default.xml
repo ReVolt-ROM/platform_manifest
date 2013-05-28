@@ -44,6 +44,7 @@
   
   <!-- Devices -->
   <project path="device/asus/grouper" name="device_asus_grouper" remote="aokp" revision="jb-mr1" />
+  <project path="device/asus/tf300t" name="android_device_asus_tf300t" remote="cm" revision="cm-10.1" />
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.1" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
@@ -316,6 +317,7 @@
   
   <!-- Kernels -->
   <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="cm" revision="cm-10.1" />
+  <project path="kernel/asus/tf300t" name="android_kernel_asus_tf300t" remote="cm" revision="cm-10.1" />
   <project path="kernel/lge/mako" name="mako" remote="revolt" revision="enhanced_stock" />
   <project path="kernel/samsung/smdk4412" name="Team-Hydra/android_kernel_samsung_smdk4412" remote="github" revision="cm-10.1" />
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="cm-10.1" />
@@ -439,7 +441,7 @@
   <project path="vendor/lge" name="vendor_lge" remote="aokp" revision="jb-mr1" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="revolt" revision="cm-10.1" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="muppets" revision="cm-10.1" />
-  <project path="vendor/asus" name="vendor_asus" remote="aokp" revision="jb-mr1" />
+  <project path="vendor/asus" name="proprietary_vendor_asus" remote="muppets" revision="cm-10.1" />
   <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="muppets" revision="cm-10.1" />
   <project path="vendor/google" name="vendor_google" remote="revolt" revision="jb-mr1" />
   <project path="vendor/sony" name="proprietary_vendor_sony" remote="muppets" revision="cm-10.1" />
