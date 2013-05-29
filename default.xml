@@ -326,7 +326,7 @@
   <!-- Kernels -->
   <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="cm" revision="cm-10.1" />
   <project path="kernel/asus/tf300t" name="android_kernel_asus_tf300t" remote="cm" revision="jellybean" />
-  <project path="kernel/lge/mako" name="mako" remote="revolt" revision="enhanced_stock" />
+  <project path="kernel/lge/mako" name="ParanoidAndroid/lge-kernel-mako" remote="github" revision="jellybean" />
   <project path="kernel/samsung/smdk4412" name="Team-Hydra/android_kernel_samsung_smdk4412" remote="github" revision="cm-10.1" />
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/t1" name="android_kernel_samsung_t1" remote="cm" revision="cm-10.1" />
