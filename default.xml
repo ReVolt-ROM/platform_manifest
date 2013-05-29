@@ -362,7 +362,7 @@
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/PermissionsManager" name="packages_apps_PermissionsManager" remote="aokp" revision="jb-mr1" />
-  <project path="packages/apps/Phone" name="packages_apps_Phone" remote="revolt" revision="jb-safe" />
+  <project path="packages/apps/Phone" name="packages_apps_Phone" remote="revolt" revision="jb4.2" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/ROMControl" name="packages_apps_ROMControl" remote="revolt" revision="revolt" />
