@@ -19,6 +19,9 @@
   <remote name="revolt"
           fetch="https://github.com/ReVolt-ROM/" />
           
+  <remote name="tpoint75"
+          fetch="https://github.com/tpoint75/" />
+
   <remote name="muppets"
              fetch="git://github.com/TheMuppets/" />
 
@@ -74,8 +77,10 @@
   <project path="device/samsung/jfltespr" name="android_device_samsung_jfltespr" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/jflteatt" name="android_device_samsung_jflteatt" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/jf-common" name="device_samsung_jf-common" remote="revolt" revision="cm-10.1" />
-  <project path="device/htc/m7" name="android_device_htc_m7" remote="cm" revision="cm-10.1" />
-  <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="cm" revision="cm-10.1" />
+  <project path="device/htc/m7ul" name="android_device_htc_m7ul" remote="cm" revision="cm-10.1" />
+  <project path="device/htc/m7att" name="android_device_htc_m7att" remote="cm" revision="cm-10.1" />
+  <project path="device/htc/m7tmo" name="android_device_htc_m7tmo" remote="cm" revision="cm-10.1" />
+  <project path="device/htc/m7spl" name="android_device_htc_m7spr" remote="cm" revision="cm-10.1" />
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="cm" revision="cm-10.1" />
   <project path="device/oppo/find5" name="android_device_oppo_find5" remote="revolt" revision="cm-10.1" />
   <project path="device/samsung/n8000" name="android_device_samsung_n8000" remote="cm" revision="cm-10.1" />
@@ -458,5 +463,5 @@
   <project path="packages/wallpapers/SwagPapers" name="packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb-mr1" />
 
   <!-- Manifest -->
-  <project path="platform_manifest" name="platform_manifest" remote="revolt" revision="jb-mr1" />
+  <project path="platform_manifest" name="platform_manifest" remote="tpoint75" revision="jb-mr1" />
 </manifest>
