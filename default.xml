@@ -19,6 +19,9 @@
   <remote name="revolt"
           fetch="https://github.com/ReVolt-ROM/" />
           
+  <remote name="tpoint75"
+          fetch="https://github.com/tpoint75/" />
+
   <remote name="muppets"
              fetch="git://github.com/TheMuppets/" />
 
@@ -460,5 +463,5 @@
   <project path="packages/wallpapers/SwagPapers" name="packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb-mr1" />
 
   <!-- Manifest -->
-  <project path="platform_manifest" name="platform_manifest" remote="revolt" revision="jb-mr1" />
+  <project path="platform_manifest" name="platform_manifest" remote="tpoint75" revision="jb-mr1" />
 </manifest>
