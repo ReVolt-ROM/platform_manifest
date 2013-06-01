@@ -21,6 +21,9 @@
           
   <remote name="tpoint75"
           fetch="https://github.com/tpoint75/" />
+          
+  <remote name="pio-masaki"
+          fetch="https://github.com/pio-masaki/" />
 
   <remote name="muppets"
              fetch="git://github.com/TheMuppets/" />
@@ -77,6 +80,7 @@
   <project path="device/samsung/jfltespr" name="android_device_samsung_jfltespr" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/jflteatt" name="android_device_samsung_jflteatt" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/jf-common" name="device_samsung_jf-common" remote="revolt" revision="cm-10.1" />
+  <project path="device/htc/dlx" name="revolt_device_dlx" remote="pio-masaki" revision="master" />
   <project path="device/htc/m7ul" name="android_device_htc_m7ul" remote="revolt" revision="cm-10.1" />
   <project path="device/htc/m7att" name="android_device_htc_m7att" remote="revolt" revision="cm-10.1" />
   <project path="device/htc/m7tmo" name="android_device_htc_m7tmo" remote="revolt" revision="cm-10.1" />
@@ -335,6 +339,7 @@
   <project path="kernel/samsung/exynos5410" name="android_kernel_samsung_exynos5410" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/manta" name="android_kernel_samsung_manta" remote="cm" revision="cm-10.1" />
   <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="cm" revision="cm-10.1" />
+  <project path="kernel/htc/dlx" name="CM10DNA/android_kernel_htc_dlx" remote="github" revision="cm-10.1" />
   <project path="kernel/oppo/find5" name="android_kernel_oppo_find5" remote="cm" revision="cm-10.1" />
   <project path="kernel/sony/apq8064" name="android_kernel_sony_apq8064" remote="cm" revision="cm-10.1" />
   
@@ -449,6 +454,7 @@
   <project path="vendor/lge" name="vendor_lge" remote="aokp" revision="jb-mr1" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="revolt" revision="cm-10.1" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="muppets" revision="cm-10.1" />
+  <project path="vendor/htc/dlx" name="revolt_vendor_dlx" remote="pio-masaki" revision="master" />
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="muppets" revision="cm-10.1" />
   <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="muppets" revision="cm-10.1" />
   <project path="vendor/google" name="vendor_google" remote="revolt" revision="jb-mr1" />
