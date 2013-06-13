@@ -74,8 +74,7 @@
   <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/d710" name="device_samsung_d710" remote="revolt" revision="cm-10.1" />
   <project path="device/samsung/d2-common" name="device_samsung_d2-common" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/i9500" name="android_device_samsung_i9500" remote="cm" revision="cm-10.1" />
-  <project path="device/samsung/i9505" name="victorator/device_samsung_i9505" remote="github" revision="cm-10.1" />
+  <project path="device/samsung/jfltexx" name="android_device_samsung_jfltexx" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/jfltetmo" name="android_device_samsung_jfltetmo" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/jfltecan" name="android_device_samsung_jfltecan" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/jflteusc" name="device_samsung_jflteusc" remote="aokp" revision="jb-mr1" />
