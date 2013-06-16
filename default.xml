@@ -461,7 +461,7 @@
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="muppets" revision="cm-10.1" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="muppets" revision="cm-10.1" />
   <project path="vendor/htc/dlx" name="revolt_vendor_dlx" remote="pio-masaki" revision="master" />
-  <project path="vendor/asus" name="AOKP/vendor_asus" remote="aokp" revision="jb-mr1" />
+  <project path="vendor/asus" name="vendor_asus" remote="aokp" revision="jb-mr1" />
   <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="muppets" revision="cm-10.1" />
   <project path="vendor/google" name="vendor_google" remote="revolt" revision="jb-mr1" />
   <project path="vendor/sony" name="proprietary_vendor_sony" remote="muppets" revision="cm-10.1" />
