@@ -52,7 +52,7 @@
   <project path="development" name="platform/development" />
   
   <!-- Devices -->
-  <project path="device/asus/grouper" name="device_asus_grouper" remote="aokp" revision="jb-mr1" />
+  <project path="device/asus/grouper" name="device_asus_grouper" remote="revolt" revision="jb-mr1" />
   <project path="device/asus/tf300t" name="android_device_asus_tf300t" remote="cm" revision="cm-10.1" />
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.1" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
