@@ -68,6 +68,8 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/mako" name="device_lge_mako" remote="aokp" revision="jb-mr1" />
   <project path="device/sample" name="device/sample" />
+  <project path="device/samsung/janice" name="diego-ch/android_device_samsung_janice" remote="github" revision="cm-10.1" />
+  <project path="device/samsung/u8500-common" name="diego-ch/android_device_samsung_u8500-common" remote="github" revision="cm-10.1" />
   <project path="device/samsung/galaxys2-common" name="device_samsung_galaxys2-common" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/i9100" name="device_samsung_i9100" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/i9100g" name="device_samsung_i9100g" remote="aokp" revision="jb-mr1" />
@@ -342,6 +344,7 @@
   <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/t1" name="android_kernel_samsung_t1" remote="cm" revision="cm-10.1" />
+  <project path="kernel/samsung/u8500" name="diego-ch/android_kernel_samsung_u8500" remote="github" revision="cm-10.1" />
   <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/jf" name="android_kernel_samsung_jf" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/exynos5410" name="android_kernel_samsung_exynos5410" remote="cm" revision="cm-10.1" />
