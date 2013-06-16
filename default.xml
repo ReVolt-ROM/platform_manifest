@@ -340,18 +340,18 @@
   <!-- Kernels -->
   <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="cm" revision="cm-10.1" />
   <project path="kernel/asus/tf300t" name="android_kernel_asus_tf300t" remote="cm" revision="jellybean" />
-  <project path="kernel/lge/mako" name="ParanoidAndroid/lge-kernel-mako" remote="github" revision="jellybean" />
-  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="cm" revision="cm-10.1" />
-  <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="cm-10.1" />
-  <project path="kernel/samsung/t1" name="android_kernel_samsung_t1" remote="cm" revision="cm-10.1" />
-  <project path="kernel/samsung/u8500" name="diego-ch/android_kernel_samsung_u8500" remote="github" revision="cm-10.1" />
-  <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="cm" revision="cm-10.1" />
-  <project path="kernel/samsung/jf" name="android_kernel_samsung_jf" remote="cm" revision="cm-10.1" />
-  <project path="kernel/samsung/exynos5410" name="android_kernel_samsung_exynos5410" remote="cm" revision="cm-10.1" />
-  <project path="kernel/samsung/manta" name="android_kernel_samsung_manta" remote="cm" revision="cm-10.1" />
   <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="revolt" revision="cm-10.1" />
   <project path="kernel/htc/dlx" name="CM10DNA/android_kernel_htc_dlx" remote="github" revision="cm-10.1" />
+  <project path="kernel/lge/mako" name="ParanoidAndroid/lge-kernel-mako" remote="github" revision="jellybean" />
   <project path="kernel/oppo/find5" name="android_kernel_oppo_find5" remote="cm" revision="cm-10.1" />
+  <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="cm-10.1" />
+  <project path="kernel/samsung/exynos5410" name="android_kernel_samsung_exynos5410" remote="cm" revision="cm-10.1" />
+  <project path="kernel/samsung/jf" name="android_kernel_samsung_jf" remote="cm" revision="cm-10.1" />
+  <project path="kernel/samsung/manta" name="android_kernel_samsung_manta" remote="cm" revision="cm-10.1" />
+  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="cm" revision="cm-10.1" />
+  <project path="kernel/samsung/t1" name="android_kernel_samsung_t1" remote="cm" revision="cm-10.1" />
+  <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="cm" revision="cm-10.1" />
+  <project path="kernel/samsung/u8500" name="diego-ch/android_kernel_samsung_u8500" remote="github" revision="cm-10.1" />
   <project path="kernel/sony/apq8064" name="android_kernel_sony_apq8064" remote="cm" revision="cm-10.1" />
   
   <!-- Applications -->
@@ -465,6 +465,8 @@
   <project path="vendor/revolt" name="vendor_revolt" remote="revolt" revision="jb-mr1" />
   <project path="vendor/lge" name="vendor_lge" remote="aokp" revision="jb-mr1" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="muppets" revision="cm-10.1" />
+  <project path="vendor/samsung/janice" name="vendor_samsung_janice" remote="revolt" revision="jb-mr1" />
+  <project path="vendor/samsung/u8500-common" name="vendor_samsung_u8500-common" remote="revolt" revision="jb-mr1" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="muppets" revision="cm-10.1" />
   <project path="vendor/htc/dlx" name="revolt_vendor_dlx" remote="pio-masaki" revision="master" />
   <project path="vendor/asus" name="vendor_asus" remote="aokp" revision="jb-mr1" />
