@@ -66,7 +66,7 @@
   <project path="device/generic/x86" name="device/generic/x86" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/lge/mako" name="device_lge_mako" remote="aokp" revision="jb-mr1" />
+  <project path="device/lge/mako" name="device_lge_mako" remote="revolt" revision="jb-mr1" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/janice" name="diego-ch/android_device_samsung_janice" remote="github" revision="cm-10.1" />
   <project path="device/samsung/u8500-common" name="diego-ch/android_device_samsung_u8500-common" remote="github" revision="cm-10.1" />
