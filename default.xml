@@ -44,6 +44,7 @@
   </project>
   <project path="buildscripts" name="buildscripts" remote="revolt" revision="jb-mr1" >
     <copyfile src="build_revolt.sh" dest="build_revolt.sh" />
+    <copyfile src="build.sh" dest="build.sh" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="android_bionic" remote="cm" revision="cm-10.1" />
