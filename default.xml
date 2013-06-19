@@ -111,7 +111,7 @@
   <project path="device/sony/odin" name="device_sony_odin" remote="aokp" revision="jb-mr1" />
   <project path="device/sony/yuga" name="device_sony_yuga" remote="aokp" revision="jb-mr1" />
   <project path="device/sony/fusion3-common" name="android_device_sony_fusion3-common" remote="cm" revision="cm-10.1" />
-  <project path="device/sony/qcom-common" name="android_device_sony_qcom-common" remote="cm" revision="cm-10.1" />
+  <project path="device/sony/qcom-common" name="device_sony_qcom-common" remote="aokp" revision="jb-mr1" />
   <project path="device/sony/common" name="device_sony_common" remote="aokp" revision="jb-mr1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
 
@@ -473,7 +473,7 @@
   <project path="vendor/asus" name="vendor_asus" remote="aokp" revision="jb-mr1" />
   <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="muppets" revision="cm-10.1" />
   <project path="vendor/google" name="vendor_google" remote="revolt" revision="jb-mr1" />
-  <project path="vendor/sony" name="proprietary_vendor_sony" remote="muppets" revision="cm-10.1" />
+  <project path="vendor/sony" name="vendor_sony" remote="aokp" revision="jb-mr1" />
   <project path="vendor/unbundled_google" name="vendor_unbundled_google" remote="revolt" revision="jb-mr1" />
   <project path="vendor/audience" name="proprietary_vendor_audience" remote="muppets" revision="cm-10.1" />
   <project path="vendor/oppo" name="proprietary_vendor_oppo" remote="muppets" revision="cm-10.1" />
