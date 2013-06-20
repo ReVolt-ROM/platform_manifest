@@ -69,8 +69,8 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/mako" name="device_lge_mako" remote="revolt" revision="jb-mr1" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/janice" name="STEricsson-Android/android_device_samsung_janice" remote="github" revision="cm-10.1_staging" />
-  <project path="device/samsung/u8500-common" name="STEricsson-Android/android_device_samsung_u8500-common" remote="github" revision="cm-10.1_staging" />
+  <project path="device/samsung/janice" name="TeamCanjica/android_device_samsung_janice" remote="github" revision="cm-10.1_staging" />
+  <project path="device/samsung/u8500-common" name="TeamCanjica/android_device_samsung_u8500-common" remote="github" revision="cm-10.1_staging" />
   <project path="device/samsung/galaxys2-common" name="device_samsung_galaxys2-common" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/i9100" name="device_samsung_i9100" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/i9100g" name="device_samsung_i9100g" remote="aokp" revision="jb-mr1" />
@@ -311,8 +311,8 @@
   <project path="gdk" name="platform/gdk" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="revolt" revision="cm-10.1" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="revolt" revision="cm-10.1" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="cm-10.1" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" revision="cm-10.1" />
   <project path="hardware/msm7k" name="android_hardware_msm7k" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="revolt" revision="cm-10.1" />
@@ -467,7 +467,7 @@
   <project path="vendor/revolt" name="vendor_revolt" remote="revolt" revision="jb-mr1" />
   <project path="vendor/lge" name="vendor_lge" remote="aokp" revision="jb-mr1" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="muppets" revision="cm-10.1" />
-  <project path="vendor/samsung/u8500-common" name="STEricsson-Android/android_vendor_samsung_u8500-common" remote="github" revision="cm-10.1_staging" />
+  <project path="vendor/samsung/u8500-common" name="TeamCanjica/android_vendor_samsung_u8500-common" remote="github" revision="cm-10.1_staging" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="muppets" revision="cm-10.1" />
   <project path="vendor/htc/dlx" name="revolt_vendor_dlx" remote="pio-masaki" revision="master" />
   <project path="vendor/asus" name="vendor_asus" remote="aokp" revision="jb-mr1" />
