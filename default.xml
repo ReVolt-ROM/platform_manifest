@@ -367,7 +367,7 @@
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="revolt" revision="revolt" />
-  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="revolt" revision="jb-mr1" />
+  <project path="packages/apps/DeskClock" name="XYAOSP/packages_apps_DeskClock" remote="github" revision="jellybean" />
   <project path="packages/apps/Email" name="packages_apps_Email" remote="revolt" revision="jb-mr1" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="cm" revision="cm-10.1" />
