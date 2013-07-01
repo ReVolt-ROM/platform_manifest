@@ -75,7 +75,7 @@
   <project path="device/samsung/i9100" name="device_samsung_i9100" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/i9100g" name="device_samsung_i9100g" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/i9300" name="device_samsung_i9300" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/n7000" name="android_device_samsung_n7000" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/n7000" name="android_device_samsung_n7000" remote="revolt" revision="cm-10.1" />
   <project path="device/samsung/n7100" name="device_samsung_n7100" remote="revolt" revision="jb-mr1" />
   <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/d710" name="device_samsung_d710" remote="revolt" revision="cm-10.1" />
