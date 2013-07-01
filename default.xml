@@ -78,7 +78,7 @@
   <project path="device/samsung/n7000" name="android_device_samsung_n7000" remote="revolt" revision="cm-10.1" />
   <project path="device/samsung/n7100" name="device_samsung_n7100" remote="revolt" revision="jb-mr1" />
   <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" remote="cm" revision="cm-10.1" />
-  <project path="device/samsung/d710" name="device_samsung_d710" remote="revolt" revision="cm-10.1" />
+  <project path="device/samsung/d710" name="hazedabeast/device_samsung_d710" remote="github" revision="cm-10.1" />
   <project path="device/samsung/d2-common" name="device_samsung_d2-common" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/jfltexx" name="android_device_samsung_jfltexx" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/jfltetmo" name="android_device_samsung_jfltetmo" remote="cm" revision="cm-10.1" />
