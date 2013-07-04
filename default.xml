@@ -391,7 +391,7 @@
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="revolt" revision="jellybean" />
   <project path="packages/apps/PermissionsManager" name="packages_apps_PermissionsManager" remote="aokp" revision="jb-mr1" />
-  <project path="packages/apps/Phone" name="packages_apps_Phone" remote="revolt" revision="jb-safe" />
+  <project path="packages/apps/Phone" name="Root-Box/packages_apps_Phone" remote="github" revision="jb-mr1" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/ReVoltControl" name="packages_apps_ReVoltControl" remote="revolt" revision="revolt" />
