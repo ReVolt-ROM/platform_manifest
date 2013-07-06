@@ -472,6 +472,10 @@
   <project path="vendor/revolt" name="vendor_revolt" remote="revolt" revision="jb-mr1" />
   <project path="vendor/lge" name="vendor_lge" remote="aokp" revision="jb-mr1" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="muppets" revision="cm-10.1" />
+  <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="muppets" revision="cm-10.1" />
+  <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="muppets" revision="cm-10.1" />
+  <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="muppets" revision="cm-10.1" />
+  <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="muppets" revision="cm-10.1" />
   <project path="vendor/samsung/u8500-common" name="TeamCanjica/android_vendor_samsung_u8500-common" remote="github" revision="cm-10.1_staging" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="muppets" revision="cm-10.1" />
   <project path="vendor/htc/dlx" name="revolt_vendor_dlx" remote="pio-masaki" revision="master" />
