@@ -365,7 +365,6 @@
   
   <!-- Applications -->
   <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="cm" revision="cm-10.1" />
-  <project path="packages/apps/Babel" name="android_packages_apps_Babel" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="revolt" revision="jb-mr1" />
