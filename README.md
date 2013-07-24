@@ -5,7 +5,7 @@ Syncing Sources
 ---------------
 Intialize your computer by syncing with latest sources via this command :
 
-    repo init -u git://github.com/ReVolt-ROM/platform_manifest.git -b jb-mr1
+    repo init -u git://github.com/ReVolt-ROM/platform_manifest.git -b jb-mr2
 
 then run to get the actual sources
 
