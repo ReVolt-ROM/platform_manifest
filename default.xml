@@ -71,7 +71,7 @@
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/janice" name="TeamCanjica/android_device_samsung_janice" remote="github" revision="cm-10.1_staging" />
   <project path="device/samsung/u8500-common" name="TeamCanjica/android_device_samsung_u8500-common" remote="github" revision="cm-10.1_staging" />
-  <project path="device/samsung/galaxys2-common" name="device_samsung_galaxys2-common" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/galaxys2-common" name="device_samsung_galaxys2-common" remote="revolt" revision="cm-10.1" />
   <project path="device/samsung/i9100" name="device_samsung_i9100" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/i9100g" name="device_samsung_i9100g" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/i9300" name="device_samsung_i9300" remote="aokp" revision="jb-mr1" />
