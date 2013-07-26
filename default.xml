@@ -289,7 +289,7 @@
   <project path="external/zxing" name="platform/external/zxing" />
   
   <!-- Frameworks -->
-  <project path="frameworks/av" name="frameworks_av" remote="revolt" revision="jb-mr2" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="cm" revision="cm-10.2" />
   <project path="frameworks/base" name="frameworks_base" remote="revolt" revision="jb-mr2" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
