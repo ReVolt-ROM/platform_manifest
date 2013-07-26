@@ -512,7 +512,7 @@
   <project path="vendor/google" name="vendor_google" remote="revolt" revision="jb-mr2" />
   <project path="vendor/sony" name="proprietary_vendor_sony" remote="muppets" revision="cm-10.2" />
   <project path="vendor/unbundled_google" name="vendor_unbundled_google" remote="revolt" revision="jb-mr2" />
-  <project path="vendor/audience" name="proprietary_vendor_audience" remote="muppets" revision="cm-10.2" />
+  <project path="vendor/audience" name="proprietary_vendor_audience" remote="muppets" revision="cm-10.1" />
   <project path="vendor/oppo" name="proprietary_vendor_oppo" remote="muppets" revision="cm-10.1" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr1" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="vendor_tmobile_libs_com.tmobile.themes" remote="aokp" revision="jb-mr1" />
