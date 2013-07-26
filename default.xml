@@ -507,7 +507,7 @@
   <project path="vendor/samsung/u8500-common" name="TeamCanjica/android_vendor_samsung_u8500-common" remote="github" revision="cm-10.1_staging" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="muppets" revision="cm-10.2" />
   <project path="vendor/htc/dlx" name="revolt_vendor_dlx" remote="pio-masaki" revision="master" />
-  <project path="vendor/asus" name="proprietary_vendor_asus" remote="muppets" revision="cm-10.2" />
+  <project path="vendor/asus" name="proprietary_vendor_asus" remote="muppets" revision="cm-10.1" />
   <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="muppets" revision="cm-10.2" />
   <project path="vendor/google" name="vendor_google" remote="revolt" revision="jb-mr2" />
   <project path="vendor/sony" name="proprietary_vendor_sony" remote="muppets" revision="cm-10.2" />
