@@ -131,7 +131,6 @@
   <project path="external/apache-xml" name="platform/external/apache-xml" />
   <project path="external/arduino" name="platform/external/arduino" />
   <project path="external/aroma-installer" name="amarullz/AROMA-Installer" remote="github" revision="master" />
-  <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
   <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="revolt" revision="jb-mr2" />
