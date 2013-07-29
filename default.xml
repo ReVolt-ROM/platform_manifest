@@ -370,7 +370,7 @@
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="revolt" revision="jb-mr1" />
   <project path="packages/apps/Calculator" name="packages_apps_Calculator" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="revolt" revision="jb-mr1"  />
-  <project path="packages/apps/Camera" name="UltimatumKang/packages_apps_Camera" remote="github" revision="jb4.2" />
+  <project path="packages/apps/Camera" name="packages_apps_Camera" remote="revolt" revision="cm-10.1" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="revolt" revision="revolt" />
