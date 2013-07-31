@@ -60,6 +60,7 @@
   <project path="development" name="platform/development" />
   
   <!-- Devices -->
+  <project path="device/asus/flo" name="ParanoidAndroid/android_device_asus_flo" remote="github" revision="jb43" />
   <project path="device/asus/grouper" name="device_asus_grouper" remote="revolt" revision="jb-mr2" />
   <project path="device/asus/tf300t" name="android_device_asus_tf300t" remote="cm" revision="cm-10.2" />
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.2" />
@@ -360,6 +361,7 @@
   <project path="ndk" name="platform/ndk" />
   
   <!-- Kernels -->
+  <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" />
   <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="cm" revision="cm-10.1" />
   <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="revolt" revision="jb-mr2" />
   <project path="kernel/htc/dlx" name="CM10DNA/android_kernel_htc_dlx" remote="github" revision="cm-10.1" />
