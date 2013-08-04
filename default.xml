@@ -412,7 +412,7 @@
   <project path="packages/apps/OneTimeInitializer" name="android_packages_apps_OneTimeInitializer" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="revolt" revision="jb-mr2" />
   <project path="packages/apps/PermissionsManager" name="packages_apps_PermissionsManager" remote="aokp" revision="jb-mr2" />
-  <project path="packages/apps/Phone" name="Root-Box/packages_apps_Phone" remote="github" revision="jb-mr1" />
+  <project path="packages/apps/Phone" name="packages_apps_Phone" remote="revolt" revision="cm10-2" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/ReVoltControl" name="packages_apps_ReVoltControl" remote="revolt" revision="jb-mr2" />
@@ -494,7 +494,7 @@
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="android_system_netd" remote="cm" revision="cm-10.2" />
   <project path="system/security" name="platform/system/security" />
-  <project path="system/vold" name="system_vold" remote="aokp" revision="jb-mr1" />
+  <project path="system/vold" name="system_vold" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
