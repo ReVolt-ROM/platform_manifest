@@ -362,7 +362,7 @@
   
   <!-- Kernels -->
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" />
-  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" />
+  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" revision="android-4.3_r2" />
   <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="cm" revision="cm-10.1" />
   <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="revolt" revision="jb-mr2" />
   <project path="kernel/htc/dlx" name="CM10DNA/android_kernel_htc_dlx" remote="github" revision="cm-10.1" />
