@@ -300,7 +300,7 @@
   
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="cm" revision="cm-10.2" />
-  <project path="frameworks/base" name="frameworks_base" remote="revolt" revision="jb-mr2" />
+  <project path="frameworks/base" name="frameworks_base" remote="revolt" revision="revolt2" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
   <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="cm" revision="cm-10.2" />
