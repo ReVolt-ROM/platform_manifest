@@ -210,11 +210,13 @@
   <project path="external/libogg" name="platform/external/libogg" />
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" />
+  <project path="external/libphonenumbergoogle" name="android_external_libphonenumbergoogle" remote="cm" revision="cm-10.2" />
   <project path="external/libpng" name="android_external_libpng" remote="cm" revision="cm-10.2" />
   <project path="external/libppp" name="platform/external/libppp" />
   <project path="external/libselinux" name="platform/external/libselinux" />
   <project path="external/libsepol" name="platform/external/libsepol" />
   <project path="external/libusb" name="platform/external/libusb" />
+  <project path="external/libusbx" name="android_external_libusbx" remote="cm" revision="cm-10.2" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" />
   <project path="external/libvorbis" name="platform/external/libvorbis" />
   <project path="external/libvpx" name="platform/external/libvpx" />
@@ -251,6 +253,7 @@
   <project path="external/openssh" name="platform/external/openssh" />
   <project path="external/openssl" name="platform/external/openssl" />
   <project path="external/oprofile" name="platform/external/oprofile" />
+  <project path="external/pigz" name="android_external_pigz" remote="cm" revision="cm-10.2" />
   <project path="external/ping" name="platform/external/ping" />
   <project path="external/ping6" name="platform/external/ping6" />
   <project path="external/ppp" name="platform/external/ppp" />
@@ -313,6 +316,7 @@
   <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" remote="cm" revision="cm-10.2" />
   <project path="frameworks/opt/datetimepicker" name="android_frameworks_opt_datetimepicker" remote="cm" revision="cm-10.2" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
+  <project path="frameworks/opt/hardware" name="android_frameworks_opt_hardware" remote="cm" revision="cm-10.2" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
@@ -494,7 +498,7 @@
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="android_system_netd" remote="cm" revision="cm-10.2" />
   <project path="system/security" name="platform/system/security" />
-  <project path="system/vold" name="system_vold" remote="revolt" revision="jb-mr2" />
+  <project path="system/vold" name="system_vold" remote="cm" revision="cm-10.2" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
