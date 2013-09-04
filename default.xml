@@ -60,7 +60,7 @@
   <project path="development" name="platform/development" />
   
   <!-- Devices -->
-  <project path="device/asus/flo" name="ParanoidAndroid/android_device_asus_flo" remote="github" revision="jb43" />
+  <project path="device/asus/flo" name="android_device_asus_flo" remote="cm" revision="cm-10.2" />
   <project path="device/asus/grouper" name="device_asus_grouper" remote="revolt" revision="jb-mr2" />
   <project path="device/asus/tf300t" name="android_device_asus_tf300t" remote="cm" revision="cm-10.2" />
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.2" />
@@ -76,8 +76,6 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/mako" name="device_lge_mako" remote="revolt" revision="jb-mr2" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/janice" name="TeamCanjica/android_device_samsung_janice" remote="github" revision="cm-10.1_staging" />
-  <project path="device/samsung/u8500-common" name="TeamCanjica/android_device_samsung_u8500-common" remote="github" revision="cm-10.1_staging" />
   <project path="device/samsung/galaxys2-common" name="device_samsung_galaxys2-common" remote="revolt" revision="jb-mr2" />
   <project path="device/samsung/i9100" name="device_samsung_i9100" remote="aokp" revision="jb-mr2" />
   <project path="device/samsung/i9100g" name="device_samsung_i9100g" remote="aokp" revision="jb-mr2" />
@@ -90,8 +88,8 @@
   <project path="device/samsung/jfltexx" name="android_device_samsung_jfltexx" remote="cm" revision="cm-10.2" />
   <project path="device/samsung/jfltetmo" name="android_device_samsung_jfltetmo" remote="cm" revision="cm-10.2" />
   <project path="device/samsung/jfltecan" name="android_device_samsung_jfltecan" remote="cm" revision="cm-10.2" />
-  <project path="device/samsung/jflteusc" name="device_samsung_jflteusc" remote="aokp" revision="jb-mr2" />
-  <project path="device/samsung/jfltevzw" name="device_samsung_jfltevzw" remote="aokp" revision="jb-mr2" />
+  <project path="device/samsung/jflteusc" name="android_device_samsung_jflteusc" remote="cm" revision="cm-10.2" />
+  <project path="device/samsung/jfltevzw" name="android_device_samsung_jfltevzw" remote="cm" revision="cm-10.2" />
   <project path="device/samsung/jfltespr" name="android_device_samsung_jfltespr" remote="cm" revision="cm-10.2" />
   <project path="device/samsung/jflteatt" name="android_device_samsung_jflteatt" remote="cm" revision="cm-10.2" />
   <project path="device/samsung/jf-common" name="device_samsung_jf-common" remote="revolt" revision="jb-mr2" />
@@ -368,21 +366,19 @@
   <project path="ndk" name="platform/ndk" />
   
   <!-- Kernels -->
-  <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" />
+  <project path="kernel/google/msm" name="android_kernel_google_msm" remote="cm" revision="cm-10.2" />
   <project path="kernel/lge/mako" name="lge-kernel-mako" remote="revolt" revision="jb-mr2" />
-  <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="cm" revision="cm-10.1" />
+  <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="cm" revision="cm-10.2" />
   <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="revolt" revision="jb-mr2" />
-  <project path="kernel/htc/dlx" name="CM10DNA/android_kernel_htc_dlx" remote="github" revision="cm-10.1" />
+  <project path="kernel/htc/dlx" name="CM10DNA/android_kernel_htc_dlx" remote="github" revision="cm-10.2" />
   <project path="kernel/oppo/find5" name="android_kernel_oppo_find5" remote="cm" revision="cm-10.1" />
-  <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="cm-10.1" />
-  <project path="kernel/samsung/exynos5410" name="android_kernel_samsung_exynos5410" remote="cm" revision="cm-10.1" />
+  <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="cm-10.2" />
   <project path="kernel/samsung/jf" name="kernel_samsung_jf" remote="aokp" revision="jb-mr2" />
-  <project path="kernel/samsung/manta" name="android_kernel_samsung_manta" remote="cm" revision="cm-10.1" />
-  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="revolt" revision="jb-mr2" />
-  <project path="kernel/samsung/t1" name="android_kernel_samsung_t1" remote="cm" revision="cm-10.1" />
-  <project path="kernel/samsung/tuna" name="imoseyon/leanKernel-galaxy-nexus" remote="github" revision="lk-jb-mr1" />
-  <project path="kernel/samsung/u8500" name="diego-ch/android_kernel_samsung_u8500" remote="github" revision="jb" />
-  <project path="kernel/sony/apq8064" name="android_kernel_sony_apq8064" remote="cm" revision="cm-10.1" />
+  <project path="kernel/samsung/manta" name="android_kernel_samsung_manta" remote="cm" revision="cm-10.2" />
+  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="cm" revision="cm-10.2" />
+  <project path="kernel/samsung/t1" name="android_kernel_samsung_t1" remote="cm" revision="cm-10.2" />
+  <project path="kernel/samsung/tuna" name="imoseyon/leanKernel-galaxy-nexus" remote="github" revision="lk-jb-mr2" />
+  <project path="kernel/sony/apq8064" name="android_kernel_sony_apq8064" remote="cm" revision="cm-10.2" />
   
   <!-- Applications -->
   <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="cm" revision="cm-10.2" />
@@ -521,16 +517,15 @@
   <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="muppets" revision="cm-10.2" />
   <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="muppets" revision="cm-10.2" />
   <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="muppets" revision="cm-10.2" />
-  <project path="vendor/samsung/u8500-common" name="TeamCanjica/android_vendor_samsung_u8500-common" remote="github" revision="cm-10.1_staging" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="muppets" revision="cm-10.2" />
   <project path="vendor/htc/dlx" name="revolt_vendor_dlx" remote="pio-masaki" revision="master" />
-  <project path="vendor/asus" name="proprietary_vendor_asus" remote="muppets" revision="cm-10.1" />
+  <project path="vendor/asus" name="proprietary_vendor_asus" remote="muppets" revision="cm-10.2" />
   <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="muppets" revision="cm-10.2" />
   <project path="vendor/google" name="vendor_google" remote="revolt" revision="jb-mr2" />
   <project path="vendor/sony" name="proprietary_vendor_sony" remote="muppets" revision="cm-10.2" />
   <project path="vendor/unbundled_google" name="vendor_unbundled_google" remote="revolt" revision="jb-mr2" />
-  <project path="vendor/audience" name="proprietary_vendor_audience" remote="muppets" revision="cm-10.1" />
-  <project path="vendor/oppo" name="proprietary_vendor_oppo" remote="muppets" revision="cm-10.1" />
+  <project path="vendor/audience" name="proprietary_vendor_audience" remote="muppets" revision="cm-10.2" />
+  <project path="vendor/oppo" name="proprietary_vendor_oppo" remote="muppets" revision="cm-10.2" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr1" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="vendor_tmobile_libs_com.tmobile.themes" remote="aokp" revision="jb-mr1" />
   <project path="vendor/tmobile/providers/ThemeManager" name="vendor_tmobile_providers_ThemeManager" remote="aokp" revision="jb-mr1" />
