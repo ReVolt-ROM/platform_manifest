@@ -19,6 +19,9 @@
   <remote name="revolt"
           fetch="https://github.com/ReVolt-ROM/" />
           
+  <remote name="revolt-moto"
+          fetch="https://github.com/ReVolt-Moto/" />
+          
   <remote name="tpoint75"
           fetch="https://github.com/tpoint75/" />
           
@@ -76,6 +79,11 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/mako" name="device_lge_mako" remote="revolt" revision="jb-mr2" />
   <project path="device/sample" name="device/sample" />
+  <project path="device/motorola/msm8960-common" name="android_device_motorola_msm8960-common" remote="revolt-moto" revision="cm-10.2" />
+  <project path="device/motorola/mb886" name="android_device_motorola_mb886" remote="cm" revision="cm-10.2" />
+  <project path="device/motorola/xt907" name="android_device_motorola_xt907" remote="cm" revision="cm-10.2" />
+  <project path="device/motorola/xt925" name="android_device_motorola_xt925" remote="cm" revision="cm-10.2" />
+  <project path="device/motorola/xt926" name="android_device_motorola_xt926" remote="cm" revision="cm-10.2" />
   <project path="device/samsung/galaxys2-common" name="device_samsung_galaxys2-common" remote="revolt" revision="jb-mr2" />
   <project path="device/samsung/i9100" name="device_samsung_i9100" remote="aokp" revision="jb-mr2" />
   <project path="device/samsung/i9100g" name="device_samsung_i9100g" remote="aokp" revision="jb-mr2" />
@@ -83,6 +91,7 @@
   <project path="device/samsung/n7000" name="android_device_samsung_n7000" remote="revolt" revision="jb-mr2" />
   <project path="device/samsung/n7100" name="device_samsung_n7100" remote="revolt" revision="jb-mr2" />
   <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" remote="cm" revision="cm-10.2" />
+  <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" remote="cm" revision="cm-10.2" />
   <project path="device/samsung/d710" name="android_device_samsung_d710" remote="cm" revision="cm-10.2" />
   <project path="device/samsung/d2-common" name="device_samsung_d2-common" remote="aokp" revision="jb-mr2" />
   <project path="device/samsung/jfltexx" name="android_device_samsung_jfltexx" remote="cm" revision="cm-10.2" />
@@ -372,6 +381,7 @@
   <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="revolt" revision="jb-mr2" />
   <project path="kernel/htc/dlx" name="CM10DNA/android_kernel_htc_dlx" remote="github" revision="cm-10.2" />
   <project path="kernel/oppo/find5" name="android_kernel_oppo_find5" remote="cm" revision="cm-10.2" />
+  <project path="kernel/motorola/msm8960-common" name="android_kernel_motorola_msm8960-common" remote="cm" revision="cm-10.2" />
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="cm-10.2" />
   <project path="kernel/samsung/jf" name="kernel_samsung_jf" remote="aokp" revision="jb-mr2" />
   <project path="kernel/samsung/manta" name="android_kernel_samsung_manta" remote="cm" revision="cm-10.2" />
@@ -512,6 +522,7 @@
   <!-- Vendors -->
   <project path="vendor/revolt" name="vendor_revolt" remote="revolt" revision="jb-mr2" />
   <project path="vendor/lge" name="ParanoidAndroid/proprietary_vendor_lge" remote="github" revision="jb43" />
+  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="muppets" revision="cm-10.2" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="muppets" revision="cm-10.2" />
   <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="muppets" revision="cm-10.2" />
   <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="muppets" revision="cm-10.2" />
