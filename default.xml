@@ -116,7 +116,7 @@
   <project path="device/htc/m7spr" name="android_device_htc_m7spr" remote="revolt" revision="jb-mr2" />
   <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="revolt" revision="jb-mr2" />
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="cm" revision="cm-10.2" />
-  <project path="device/oppo/find5" name="android_device_oppo_find5" remote="revolt" revision="jb-mr2" />
+  <project path="device/oppo/find5" name="device_oppo_find5" remote="aokp" revision="jb-mr2" />
   <project path="device/samsung/n8000" name="android_device_samsung_n8000" remote="cm" revision="cm-10.2" />
   <project path="device/samsung/n8013" name="android_device_samsung_n8013" remote="cm" revision="cm-10.2" />
   <project path="device/samsung/n80xx-common" name="android_device_samsung_n80xx-common" remote="cm" revision="cm-10.2" />
@@ -389,7 +389,7 @@
   <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="cm" revision="cm-10.2" />
   <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="revolt" revision="jb-mr2" />
   <project path="kernel/htc/dlx" name="CM10DNA/android_kernel_htc_dlx" remote="github" revision="cm-10.2" />
-  <project path="kernel/oppo/find5" name="android_kernel_oppo_find5" remote="cm" revision="cm-10.2" />
+  <project path="kernel/oppo/find5" name="kernel_oppo_find5" remote="aokp" revision="jb-mr2" />
   <project path="kernel/motorola/msm8960-common" name="android_kernel_motorola_msm8960-common" remote="cm" revision="cm-10.2" />
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="cm-10.2" />
   <project path="kernel/samsung/jf" name="kernel_samsung_jf" remote="aokp" revision="jb-mr2" />
