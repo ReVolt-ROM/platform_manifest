@@ -94,6 +94,7 @@
   <project path="device/samsung/i9100" name="device_samsung_i9100" remote="revolt" revision="jb-mr2" />
   <project path="device/samsung/i9100g" name="device_samsung_i9100g" remote="revolt" revision="jb-mr2" />
   <project path="device/samsung/i9300" name="device_samsung_i9300" remote="aokp" revision="jb-mr2" />
+  <project path="device/samsung/i9500" name="intervigilium/android_device_samsung_i9500" remote="github" revision="cm-10.2" />
   <project path="device/samsung/n7000" name="android_device_samsung_n7000" remote="revolt" revision="jb-mr2" />
   <project path="device/samsung/n7100" name="device_samsung_n7100" remote="revolt" revision="jb-mr2" />
   <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="cm" revision="cm-10.2" />
@@ -373,7 +374,10 @@
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="cm" revision="cm-10.2" />
   <project path="hardware/ril" name="android_hardware_ril" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="cm-10.2" />
-  <project path="hardware/samsung_slsi/exynos5" name="android_hardware_samsung_slsi_exynos5" remote="cm" revision="cm-10.2" />
+  <project path="hardware/samsung_slsi/exynos" name="intervigilium/android_hardware_samsung_slsi_exynos" remote="github" revision="cm-10.2" />
+  <project path="hardware/samsung_slsi/exynos5-insignal" name="intervigilium/android_hardware_samsung_slsi_exynos5-insignal" remote="github" revision="cm-10.2" />
+  <project path="hardware/samsung_slsi/exynos5410" name="intervigilium/android_hardware_samsung_slsi_exynos5410" remote="github" revision="cm-10.2" />
+  <project path="hardware/samsung_slsi/openmax" name="intervigilium/android_hardware_samsung_slsi_openmax" remote="github" revision="cm-10.2" />
   <project path="hardware/sony/DASH" name="android_hardware_sony_DASH" remote="cm" revision="cm-10.2" />
   <project path="hardware/ti/omap3" name="android_hardware_ti_omap3" remote="cm" revision="cm-10.2" />
   <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="cm" revision="cm-10.2" />
@@ -392,6 +396,7 @@
   <project path="kernel/oppo/find5" name="kernel_oppo_find5" remote="aokp" revision="jb-mr2" />
   <project path="kernel/motorola/msm8960-common" name="android_kernel_motorola_msm8960-common" remote="cm" revision="cm-10.2" />
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="cm-10.2" />
+  <project path="kernel/samsung/exynos5410" name="intervigilium/android_kernel_samsung_exynos5410" remote="github" revision="cm-10.2" />
   <project path="kernel/samsung/jf" name="kernel_samsung_jf" remote="aokp" revision="jb-mr2" />
   <project path="kernel/samsung/manta" name="android_kernel_samsung_manta" remote="cm" revision="cm-10.2" />
   <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="cm" revision="cm-10.2" />
@@ -534,7 +539,7 @@
   <project path="vendor/elan" name="proprietary_vendor_elan" remote="muppets" revision="cm-10.2" />
   <project path="vendor/lge" name="ParanoidAndroid/proprietary_vendor_lge" remote="github" revision="jb43" />
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="muppets" revision="cm-10.2" />
-  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="muppets" revision="cm-10.2" />
+  <project path="vendor/samsung" name="intervigilium/proprietary_vendor_samsung" remote="github" revision="cm-10.2" />
   <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="muppets" revision="cm-10.2" />
   <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="muppets" revision="cm-10.2" />
   <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="muppets" revision="cm-10.2" />
