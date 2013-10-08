@@ -81,7 +81,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/mako" name="device_lge_mako" remote="revolt" revision="jb-mr2" />
-  <project path="device/sample" name="device/sample" />
+  <project path="device/sample" name="android_device_sample" remote="cm" revision="cm-10.2" groups="device" />
   <project path="device/motorola/msm8960-common" name="android_device_motorola_msm8960-common" remote="cm" revision="cm-10.2" />
   <project path="device/motorola/qcom-common" name="android_device_motorola_qcom-common" remote="revolt-moto" revision="cm-10.2" />
   <project path="device/motorola/mb886" name="android_device_motorola_mb886" remote="cm" revision="cm-10.2" />
@@ -161,6 +161,7 @@
   <project path="external/chromium-trace" name="platform/external/chromium-trace" />
   <project path="external/clang" name="android_external_clang" remote="cm" revision="cm-10.2" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" />
+  <project path="external/crda" name="android_external_crda" remote="cm" revision="cm-10.2" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="android_external_dnsmasq" remote="cm" revision="cm-10.2" />
@@ -351,38 +352,39 @@
   <project path="frameworks/webview" name="android_frameworks_webview" remote="cm" revision="cm-10.2" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
 
-  <project path="hardware/akm" name="android_hardware_akm" remote="cm" revision="cm-10.2" groups="pdk" />
-  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="cm" revision="cm-10.2" groups="pdk" />
-  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm" revision="cm-10.2" groups="broadcom_wlan" />
+  <project path="hardware/akm" name="platform/hardware/akm" />
+  <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="aokp" revision="jb-mr2" groups="pdk" />
+  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="aokp" revision="jb-mr2" groups="broadcom_wlan" />
   <project path="hardware/cm" name="android_hardware_cm" remote="cm" revision="cm-10.2" />
-  <project path="hardware/invensense" name="android_hardware_invensense" remote="cm" revision="cm-10.2" groups="invensense" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="cm-10.2" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" revision="cm-10.2" groups="pdk" />
-  <project path="hardware/msm7k" name="android_hardware_msm7k" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="cm" revision="cm-10.2" groups="qcom" />
-  <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="cm" revision="cm-10.2" groups="caf" />
-  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" revision="cm-10.2" groups="qcom" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="cm-10.2" groups="qcom" />
-  <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="cm" revision="cm-10.2" groups="caf" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="cm-10.2" groups="qcom" />
-  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="cm" revision="cm-10.2" groups="qcom" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cm" revision="cm-10.2" groups="qcom" />
-  <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="cm" revision="cm-10.2" groups="caf" />
-  <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" remote="cm" revision="cm-10.2" groups="qcom_msm8960" />
-  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" remote="cm" revision="cm-10.2" />
+  <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="aokp" revision="jb-mr2" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="aokp" revision="jb-mr2" groups="pdk" />
+  <project path="hardware/msm7k" name="hardware_msm7k" remote="aokp" revision="jb-mr2" />
+  <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="aokp" revision="jb-mr2" groups="qcom" />
+  <project path="hardware/qcom/audio-caf" name="hardware_qcom_audio-caf" remote="aokp" revision="jb-mr2" groups="caf" />
+  <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="aokp" revision="jb-mr2" groups="qcom" />
+  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="aokp" revision="jb-mr2" groups="qcom" />
+  <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="aokp" revision="jb-mr2" groups="caf" />
+  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="aokp" revision="jb-mr2" groups="qcom" />
+  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="aokp" revision="jb-mr2" groups="qcom" />
+  <project path="hardware/qcom/media-caf" name="hardware_qcom_media-caf" remote="aokp" revision="jb-mr2" groups="caf" />
+  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
+  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="aokp" revision="jb-mr2" />
+  <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="cm" revision="cm-10.2" />
-  <project path="hardware/ril" name="android_hardware_ril" remote="cm" revision="cm-10.2" groups="pdk" />
-  <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="cm-10.2" />
+  <project path="hardware/ril" name="hardware_ril" remote="aokp" revision="jb-mr2" groups="pdk" />
+  <project path="hardware/samsung" name="hardware_samsung" remote="aokp" revision="jb-mr2" />
+  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
   <project path="hardware/samsung_slsi/exynos" name="intervigilium/android_hardware_samsung_slsi_exynos" remote="github" revision="cm-10.2" />
   <project path="hardware/samsung_slsi/exynos5-insignal" name="intervigilium/android_hardware_samsung_slsi_exynos5-insignal" remote="github" revision="cm-10.2" />
   <project path="hardware/samsung_slsi/exynos5410" name="intervigilium/android_hardware_samsung_slsi_exynos5410" remote="github" revision="cm-10.2" />
   <project path="hardware/samsung_slsi/openmax" name="intervigilium/android_hardware_samsung_slsi_openmax" remote="github" revision="cm-10.2" />
-  <project path="hardware/sony/DASH" name="android_hardware_sony_DASH" remote="cm" revision="cm-10.2" />
-  <project path="hardware/ti/omap3" name="android_hardware_ti_omap3" remote="cm" revision="cm-10.2" />
+  <project path="hardware/sony/DASH" name="hardware_sony_DASH" remote="aokp" revision="jb-mr2" />
+  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="cm" revision="cm-10.2" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-10.2" />
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" revision="cm-10.2" />
+
   <project path="libcore" name="android_libcore" remote="cm" revision="cm-10.2" />
   <project path="libnativehelper" name="android_libnativehelper" remote="cm" revision="cm-10.2" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
@@ -511,7 +513,7 @@
   <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" groups="pdk,linux,mips" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="linux,x86" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" groups="pdk,linux,x86" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
-  <project path="prebuilts/misc" name="platform/prebuilts/misc" remote="aosp" revision="refs/tags/android-4.3_r3.1" groups="pdk" />
+  <project path="prebuilts/misc" name="prebuilts_misc" remote="aokp" revision="jb-mr2" groups="pdk" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" remote="aosp" revision="refs/tags/android-4.3_r3.1" groups="pdk" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" remote="aosp" revision="refs/tags/android-4.3_r3.1" groups="pdk" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="refs/tags/android-4.3_r3.1" groups="pdk" />
@@ -522,6 +524,7 @@
   <project path="system/extras" name="android_system_extras" remote="cm" revision="cm-10.2" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="android_system_netd" remote="cm" revision="cm-10.2" />
+  <project path="system/qcom" name="android_system_qcom" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="android_system_vold" remote="cm" revision="cm-10.2" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
