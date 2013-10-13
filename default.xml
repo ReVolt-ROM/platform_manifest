@@ -374,7 +374,6 @@
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="cm" revision="cm-10.2" />
   <project path="hardware/ril" name="hardware_ril" remote="aokp" revision="jb-mr2" groups="pdk" />
   <project path="hardware/samsung" name="hardware_samsung" remote="aokp" revision="jb-mr2" />
-  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
   <project path="hardware/samsung_slsi/exynos" name="intervigilium/android_hardware_samsung_slsi_exynos" remote="github" revision="cm-10.2" />
   <project path="hardware/samsung_slsi/exynos5-insignal" name="intervigilium/android_hardware_samsung_slsi_exynos5-insignal" remote="github" revision="cm-10.2" />
   <project path="hardware/samsung_slsi/exynos5410" name="intervigilium/android_hardware_samsung_slsi_exynos5410" remote="github" revision="cm-10.2" />
