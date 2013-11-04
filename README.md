@@ -1,11 +1,11 @@
-ReVolt JB ROM
+ReVolt KK ROM
 ======================
 
 Syncing Sources
 ---------------
 Intialize your computer by syncing with latest sources via this command :
 
-    repo init -u git://github.com/ReVolt-ROM/platform_manifest.git -b jb-mr2
+    repo init -u git://github.com/ReVolt-ROM/platform_manifest.git -b kitkat
 
 then run to get the actual sources
 
@@ -15,8 +15,8 @@ It might take a lot of time depending on your internet connection ..
 
  # is replaced with threads you want to use
 
-Building REVOLT ROM
--------------------
+Building REVOLT ROM (Still not fully ready with KitKat)
+------------------------------------------------------
 
 
 Now you can run the build script:
@@ -41,8 +41,5 @@ Examples:
     . build_revolt.sh i9100 nosync 4 clean
 
 (This will not sync source, use 4 cores, clean and build Revolt for the I9100)
-
-
-
 
 
