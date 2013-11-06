@@ -66,8 +66,8 @@
   <project path="development" name="platform/development" />
   
   <!-- Devices (Needs to be updated) -->
-  <project path="device/asus/flo" name="device_asus_flo" remote="revolt" revision="jb-mr2" />
-  <project path="device/asus/grouper" name="device_asus_grouper" remote="revolt" revision="jb-mr2" />
+  <project path="device/asus/flo" name="device/asusflo" />
+  <project path="device/asus/grouper" name="device/asus/grouper" />
   <project path="device/asus/tf300t" name="android_device_asus_tf300t" remote="cm" revision="cm-10.2" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
@@ -80,7 +80,7 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/lge/mako" name="device_lge_mako" remote="revolt" revision="jb-mr2" />
+  <project path="device/lge/mako" name="device/lge/mako" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/motorola/msm8960-common" name="android_device_motorola_msm8960-common" remote="cm" revision="cm-10.2" />
   <project path="device/motorola/qcom-common" name="android_device_motorola_qcom-common" remote="revolt-moto" revision="cm-10.2" />
@@ -533,13 +533,13 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/core" name="system_core" remote="revolt" revision="jb-mr2" />
-  <project path="system/extras" name="android_system_extras" remote="cm" revision="cm-10.2" />
+  <project path="system/core" name="platform/system/core" />
+  <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
-  <project path="system/netd" name="android_system_netd" remote="cm" revision="cm-10.2" />
-  <project path="system/qcom" name="android_system_qcom" remote="cm" revision="cm-10.2" groups="pdk" />
+  <project path="system/netd" name="platform/system/netd" />
+  <project path="system/qcom" name="platform/system/qcom" groups="pdk" />
   <project path="system/security" name="platform/system/security" />
-  <project path="system/vold" name="android_system_vold" remote="cm" revision="cm-10.2" />
+  <project path="system/vold" name="platform/system/vold" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
@@ -571,9 +571,9 @@
   <project path="vendor/unbundled_google" name="vendor_unbundled_google" remote="revolt" revision="jb-mr2" />
   <project path="vendor/audience" name="proprietary_vendor_audience" remote="muppets" revision="cm-10.2" />
   <project path="vendor/oppo" name="proprietary_vendor_oppo" remote="muppets" revision="cm-10.2" />
-  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr1" />
+  <!-- <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr1" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="vendor_tmobile_libs_com.tmobile.themes" remote="aokp" revision="jb-mr1" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="vendor_tmobile_providers_ThemeManager" remote="aokp" revision="jb-mr1" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="vendor_tmobile_providers_ThemeManager" remote="aokp" revision="jb-mr1" /> -->
 
   <!-- Manifest -->
   <project path="platform_manifest" name="platform_manifest" remote="revolt" revision="kitkat" />
