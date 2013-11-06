@@ -43,7 +43,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform/build" >
+  <project path="build" name="android_build" remote="revolt" revision="kitkat" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="buildscripts" name="buildscripts" remote="revolt" revision="jb-mr2" >
