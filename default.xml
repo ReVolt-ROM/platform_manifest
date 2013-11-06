@@ -537,7 +537,7 @@
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
-  <project path="system/qcom" name="platform/system/qcom" groups="pdk" />
+  <project path="system/qcom" name="android_system_qcom" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="platform/system/vold" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
