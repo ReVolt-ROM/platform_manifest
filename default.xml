@@ -16,7 +16,7 @@
   <remote  name="omnirom"
            review="gerrit.omnirom.org"
            fetch="https://github.com/omnirom" />
-           
+
   <remote name="github"
           fetch="https://github.com/" />
 
@@ -65,7 +65,7 @@
   <project path="development" name="platform/development" />
   
   <!-- Devices (Needs to be updated) -->
-  <project path="device/asus/flo" name="device/asus/flo" />
+  <project path="device/asus/flo" name="device_asus_flo" remote="revolt" revision="kitkat" />
   <project path="device/asus/grouper" name="device/asus/grouper" />
   <project path="device/asus/tf300t" name="android_device_asus_tf300t" remote="cm" revision="cm-10.2" />
   <project path="device/common" name="device/common" />
@@ -534,7 +534,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/core" name="platform/system/core" />
+  <project path="system/core" name="system_core" remote="revolt" revision="kitkat" />
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
