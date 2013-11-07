@@ -52,12 +52,12 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" />
-  <project path="bionic" name="platform/bionic" />
+  <project path="bionic" name="android_bionic" remote="omnirom" revision="android-4.4" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="cm-11.0" />
   <project path="cts" name="platform/cts" groups="cts" />
-  <project path="dalvik" name="platform/dalvik" />
+  <project path="dalvik" name="android_dalvik" remote="omnirom" revision="android-4.4" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
@@ -347,7 +347,7 @@
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
-  <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
+  <project path="frameworks/opt/mms" name="android_frameworks_opt_mms" remote="omnirom" revision="android-4.4" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
@@ -534,12 +534,12 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/core" name="system_core" remote="revolt" revision="kitkat" />
-  <project path="system/extras" name="platform/system/extras" />
+  <project path="system/extras" name="android_system_extras" remote="cm" revision="cm-11.0" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/qcom" name="android_system_qcom" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="system/security" name="platform/system/security" />
-  <project path="system/vold" name="platform/system/vold" />
+  <project path="system/vold" name="android_system_vold" remote="cm" revision="cm-11.0" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
@@ -553,7 +553,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
   <!-- Vendors -->
-  <project path="vendor/revolt" name="vendor_revolt" remote="revolt" revision="jb-mr2" />
+  <project path="vendor/revolt" name="vendor_revolt" remote="revolt" revision="kitkat" />
   <project path="vendor/elan" name="proprietary_vendor_elan" remote="muppets" revision="cm-10.2" />
   <project path="vendor/lge" name="ParanoidAndroid/proprietary_vendor_lge" remote="github" revision="jb43" />
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="muppets" revision="cm-10.2" />
@@ -571,9 +571,9 @@
   <project path="vendor/unbundled_google" name="vendor_unbundled_google" remote="revolt" revision="jb-mr2" />
   <project path="vendor/audience" name="proprietary_vendor_audience" remote="muppets" revision="cm-10.2" />
   <project path="vendor/oppo" name="proprietary_vendor_oppo" remote="muppets" revision="cm-10.2" />
-  <!-- <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr1" />
+  <!--<project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr1" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="vendor_tmobile_libs_com.tmobile.themes" remote="aokp" revision="jb-mr1" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="vendor_tmobile_providers_ThemeManager" remote="aokp" revision="jb-mr1" /> -->
+  <project path="vendor/tmobile/providers/ThemeManager" name="vendor_tmobile_providers_ThemeManager" remote="aokp" revision="jb-mr1" />-->
 
   <!-- Manifest -->
   <project path="platform_manifest" name="platform_manifest" remote="revolt" revision="kitkat" />
