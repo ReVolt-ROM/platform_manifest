@@ -95,7 +95,7 @@
   <project path="device/samsung/i9300" name="device_samsung_i9300" remote="aokp" revision="jb-mr2" />
   <project path="device/samsung/i9500" name="intervigilium/android_device_samsung_i9500" remote="github" revision="cm-10.2" />
   <project path="device/samsung/n7000" name="android_device_samsung_n7000" remote="revolt" revision="jb-mr2" />
-  <project path="device/samsung/n7100" name="device_samsung_n7100" remote="revolt" revision="jb-mr2" />
+  <project path="device/samsung/n7100" name="android_device_samsung_n7100" remote="revolt" revision="android-4.4" />
   <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="cm" revision="cm-10.2" />
   <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" remote="cm" revision="cm-10.2" />
   <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" remote="cm" revision="cm-10.2" />
@@ -123,10 +123,10 @@
   <project path="device/samsung/msm8660-common" name="device_samsung_msm8660-common" remote="aokp" revision="jb-mr2" />
   <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="revolt" revision="jb-mr2" />
   <project path="device/samsung/omap4-common" name="android_device_samsung_omap4-common" remote="cm" revision="cm-10.2" />
-  <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" remote="revolt" revision="jb-mr2" />
+  <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" remote="omnirom" revision="android-4.4" />
   <project path="device/samsung/maguro" name="device_samsung_maguro" remote="revolt" revision="jb-mr2" />
   <project path="device/samsung/tuna" name="device_samsung_tuna" remote="aokp" revision="jb-mr2" />
-  <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="revolt" revision="jb-mr2" />
+  <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="revolt" revision="kitkat" />
   <project path="device/sony/odin" name="device_sony_odin" remote="aokp" revision="jb-mr2" />
   <project path="device/sony/yuga" name="device_sony_yuga" remote="aokp" revision="jb-mr2" />
   <project path="device/sony/fusion3-common" name="device_sony_fusion3-common" remote="aokp" revision="jb-mr2" />
@@ -385,6 +385,7 @@
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
   <project path="hardware/ril" name="android_hardware_ril" remote="omnirom" revision="android-4.4" />
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="omnirom" revision="android-4.4" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="omnirom" revision="android-4.4" />
@@ -407,7 +408,7 @@
   <project path="kernel/samsung/exynos5410" name="intervigilium/android_kernel_samsung_exynos5410" remote="github" revision="cm-10.2" />
   <project path="kernel/samsung/jf" name="kernel_samsung_jf" remote="aokp" revision="jb-mr2" />
   <project path="kernel/samsung/manta" name="android_kernel_samsung_manta" remote="cm" revision="cm-10.2" />
-  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="cm" revision="cm-10.2" />
+  <project path="kernel/samsung/smdk4412" name="android_hardware_samsung" remote="omnirom" revision="android-4.4" />
   <project path="kernel/samsung/t1" name="android_kernel_samsung_t1" remote="cm" revision="cm-10.2" />
   <project path="kernel/samsung/tuna" name="imoseyon/leanKernel-galaxy-nexus" remote="github" revision="lk-jb-mr2" />
   <project path="kernel/sony/apq8064" name="android_kernel_sony_apq8064" remote="cm" revision="cm-10.2" />
