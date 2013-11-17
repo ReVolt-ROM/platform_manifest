@@ -80,7 +80,7 @@
   <project path="device/generic/x86" name="device/generic/x86" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/lge/mako" name="device_lge_mako" remote="revolt" revision="jb-mr2" />
+  <project path="device/lge/mako" name="device_lge_mako" remote="aokp" revision="jb-mr2" />
   <project path="device/sample" name="android_device_sample" remote="cm" revision="cm-10.2" groups="device" />
   <project path="device/motorola/msm8960-common" name="android_device_motorola_msm8960-common" remote="cm" revision="cm-10.2" />
   <project path="device/motorola/qcom-common" name="android_device_motorola_qcom-common" remote="revolt-moto" revision="cm-10.2" />
@@ -322,7 +322,7 @@
   <project path="external/zxing" name="platform/external/zxing" />
   
   <!-- Frameworks -->
-  <project path="frameworks/av" name="frameworks_av" remote="revolt" revision="jb-mr2" />
+  <project path="frameworks/av" name="frameworks_av" remote="aokp" revision="jb-mr2" />
   <project path="frameworks/base" name="frameworks_base" remote="revolt" revision="revolt2" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
@@ -330,7 +330,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="frameworks_native" remote="revolt" revision="jb-mr2" />
+  <project path="frameworks/native" name="frameworks_native" remote="aokp" revision="jb-mr2" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" remote="cm" revision="cm-10.2" />
@@ -364,7 +364,7 @@
   <project path="hardware/qcom/audio-caf" name="hardware_qcom_audio-caf" remote="aokp" revision="jb-mr2" groups="caf" />
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="aokp" revision="jb-mr2" groups="qcom" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="aokp" revision="jb-mr2" groups="qcom" />
-  <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="aokp" revision="jb-mr2" groups="caf" />
+  <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="revolt" revision="jb-mr2" groups="caf" />
   <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="aokp" revision="jb-mr2" groups="qcom" />
   <project path="hardware/qcom/media" name="hardware_qcom_media" remote="aokp" revision="jb-mr2" groups="qcom" />
   <project path="hardware/qcom/media-caf" name="hardware_qcom_media-caf" remote="aokp" revision="jb-mr2" groups="caf" />
@@ -390,7 +390,7 @@
   
   <!-- Kernels -->
   <project path="kernel/google/msm" name="android_kernel_google_msm" remote="cm" revision="cm-10.2" />
-  <project path="kernel/lge/mako" name="lge-kernel-mako" remote="revolt" revision="jb-mr2" />
+  <project path="kernel/lge/mako" name="kernel_lge_mako" remote="aokp" revision="jb-mr2" />
   <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="cm" revision="cm-10.2" />
   <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="revolt" revision="jb-mr2" />
   <project path="kernel/htc/dlx" name="CM10DNA/android_kernel_htc_dlx" remote="github" revision="cm-10.2" />
