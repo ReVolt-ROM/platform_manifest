@@ -334,7 +334,7 @@
   <project path="external/zxing" name="platform/external/zxing" />
   
   <!-- Frameworks -->
-  <project path="frameworks/av" name="platform/frameworks/av" />
+  <project path="frameworks/av" name="frameworks_av" remote="revolt" revision="kitkat" />
   <project path="frameworks/base" name="frameworks_base" remote="revolt" revision="kitkat" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
