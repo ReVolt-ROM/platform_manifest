@@ -65,7 +65,7 @@
   <project path="development" name="platform/development" />
   
   <!-- Devices -->
-  <project path="device/asus/flo" name="device_asus_flo" remote="revolt" revision="kitkat" />
+  <project path="device/asus/flo" name="device_asus_flo" remote="aokp" revision="kitkat" />
   <project path="device/asus/grouper" name="device/asus/grouper" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
@@ -78,6 +78,7 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
+  <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="aokp" revision="kitkat" />
   <project path="device/lge/mako" name="device/lge/mako" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/motorola/msm8960-common" name="android_device_motorola_msm8960-common" remote="cm" revision="cm-11.0" />
@@ -396,7 +397,8 @@
   <project path="ndk" name="platform/ndk" />
   
   <!-- Kernels -->
-  <project path="kernel/google/msm" name="android_kernel_google_msm" remote="cm" revision="cm-11.0" />
+  <project path="kernel/asus/flo" name="kernel_asus_flo" remote="aokp" revision="kitkat" />
+  <project path="kernel/lge/hammerhead" name="kernel/msm" revision="android-msm-hammerhead-3.4-kk-r1" />
   <project path="kernel/lge/mako" name="lge-kernel-mako" remote="revolt" revision="jb-mr2" />
   <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="cm" revision="cm-11.0" />
   <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="revolt" revision="jb-mr2" />
