@@ -79,7 +79,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="aokp" revision="kitkat" />
-  <project path="device/lge/mako" name="device/lge/mako" />
+  <project path="device/lge/mako" name="device_lge_mako" remote="aokp" revision="kitkat" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/motorola/msm8960-common" name="android_device_motorola_msm8960-common" remote="cm" revision="cm-11.0" />
   <project path="device/motorola/qcom-common" name="android_device_motorola_qcom-common" remote="revolt-moto" revision="cm-11.0" />
@@ -96,11 +96,12 @@
   <project path="device/samsung/i9500" name="intervigilium/android_device_samsung_i9500" remote="github" revision="cm-11.0" />
   <project path="device/samsung/n7000" name="android_device_samsung_n7000" remote="revolt" revision="jb-mr2" />
   <project path="device/samsung/n7100" name="android_device_samsung_n7100" remote="revolt" revision="android-4.4" />
+  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="revolt-sam" revision="cm-10.2" />
   <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="cm" revision="cm-11.0" />
   <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" remote="cm" revision="cm-11.0" />
   <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" remote="cm" revision="cm-11.0" />
   <project path="device/samsung/d710" name="android_device_samsung_d710" remote="cm" revision="cm-10.2" />
-  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="revolt-sam" revision="cm-10.2" />
+  <project path="device/samsung/jf-common" name="device_samsung_jf-common" remote="revolt" revision="kitkat" />
   <project path="device/samsung/jfltexx" name="android_device_samsung_jfltexx" remote="cm" revision="cm-11.0" />
   <project path="device/samsung/jfltetmo" name="android_device_samsung_jfltetmo" remote="cm" revision="cm-11.0" />
   <project path="device/samsung/jfltecan" name="android_device_samsung_jfltecan" remote="cm" revision="cm-11.0" />
@@ -108,12 +109,11 @@
   <project path="device/samsung/jfltevzw" name="android_device_samsung_jfltevzw" remote="cm" revision="cm-11.0" />
   <project path="device/samsung/jfltespr" name="android_device_samsung_jfltespr" remote="cm" revision="cm-11.0" />
   <project path="device/samsung/jflteatt" name="android_device_samsung_jflteatt" remote="cm" revision="cm-11.0" />
-  <project path="device/samsung/jf-common" name="device_samsung_jf-common" remote="revolt" revision="kitkat" />
-  <project path="device/htc/m7ul" name="android_device_htc_m7ul" remote="revolt" revision="jb-mr2" />
-  <project path="device/htc/m7att" name="android_device_htc_m7att" remote="revolt" revision="jb-mr2" />
-  <project path="device/htc/m7tmo" name="android_device_htc_m7tmo" remote="revolt" revision="jb-mr2" />
-  <project path="device/htc/m7spr" name="android_device_htc_m7spr" remote="revolt" revision="jb-mr2" />
-  <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="revolt" revision="jb-mr2" />
+  <project path="device/htc/m7-common" name="device_htc_m7-common" remote="aokp" revision="kitkat" />
+  <project path="device/htc/m7att" name="device_htc_m7att" remote="aokp" revision="kitkat" />
+  <project path="device/htc/m7spr" name="device_htc_m7spr" remote="aokp" revision="kitkat" />
+  <project path="device/htc/m7tmo" name="device_htc_m7tmo" remote="aokp" revision="kitkat" />
+  <project path="device/htc/m7ul" name="device_htc_m7ul" remote="aokp" revision="kitkat" />
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="cm" revision="cm-11.0" />
   <project path="device/oppo/find5" name="device_oppo_find5" remote="aokp" revision="jb-mr2" />
   <project path="device/samsung/n8000" name="android_device_samsung_n8000" remote="cm" revision="cm-10.2" />
@@ -399,14 +399,14 @@
   <!-- Kernels -->
   <project path="kernel/asus/flo" name="kernel_asus_flo" remote="aokp" revision="kitkat" />
   <project path="kernel/lge/hammerhead" name="kernel/msm" revision="android-msm-hammerhead-3.4-kk-r1" />
-  <project path="kernel/lge/mako" name="lge-kernel-mako" remote="revolt" revision="jb-mr2" />
+  <project path="kernel/lge/mako" name="kernel_lge_mako" remote="aokp" revision="kitkat" />
   <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="cm" revision="cm-11.0" />
-  <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="revolt" revision="jb-mr2" />
+  <project path="kernel/htc/m7" name="kernel_htc_m7" remote="aokp" revision="kitkat" />
   <project path="kernel/oppo/find5" name="kernel_oppo_find5" remote="aokp" revision="jb-mr2" />
   <project path="kernel/motorola/msm8960-common" name="android_kernel_motorola_msm8960-common" remote="cm" revision="cm-11.0" />
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="cm-11.0" />
   <project path="kernel/samsung/exynos5410" name="intervigilium/android_kernel_samsung_exynos5410" remote="github" revision="cm-11.0" />
-  <project path="kernel/samsung/jf" name="kernel_samsung_jf" remote="aokp" revision="jb-mr2" />
+  <project path="kernel/samsung/jf" name="kernel_samsung_jf" remote="aokp" revision="kitkat" />
   <project path="kernel/samsung/manta" name="android_kernel_samsung_manta" remote="cm" revision="cm-11.0" />
   <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="cm" revision="cm-11.0" />
   <project path="kernel/samsung/t1" name="android_kernel_samsung_t1" remote="cm" revision="cm-11.0" />
