@@ -559,25 +559,15 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
   <!-- Vendors -->
-  <project path="vendor/revolt" name="vendor_revolt" remote="revolt" revision="kitkat" />
-  <project path="vendor/elan" name="proprietary_vendor_elan" remote="muppets" revision="cm-11.0" />
+  <project path="vendor/asus" name="vendor_asus" remote="aokp" revision="kitkat" />
+  <project path="vendor/htc" name="vendor_htc" remote="aokp" revision="kitkat" />
   <project path="vendor/lge" name="vendor_lge" remote="aokp" revision="kitkat" />
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="muppets" revision="cm-11.0" />
+  <!--<project path="vendor/oppo" name="vendor_oppo" remote="aokp" revision="kitkat" />-->
+  <project path="vendor/revolt" name="vendor_revolt" remote="revolt" revision="kitkat" />
   <project path="vendor/samsung" name="intervigilium/proprietary_vendor_samsung" remote="github" revision="cm-11.0" />
-  <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="muppets" revision="cm-11.0" />
-  <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="muppets" revision="cm-11.0" />
-  <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="muppets" revision="cm-11.0" />
-  <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="muppets" revision="cm-11.0" />
-  <project path="vendor/qcom" name="SlimRoms/proprietary_vendor_qcom" remote="github" revision="kk4.4" />
-  <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="muppets" revision="cm-11.0" />
-  <project path="vendor/htc" name="proprietary_vendor_htc" remote="muppets" revision="cm-11.0" />
-  <project path="vendor/asus" name="SlimRoms/proprietary_vendor_asus" remote="github" revision="kk4.4" />
-  <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="muppets" revision="cm-11.0" />
-  <project path="vendor/google" name="vendor_google" remote="revolt" revision="jb-mr2" />
-  <project path="vendor/sony" name="proprietary_vendor_sony" remote="muppets" revision="cm-11.0" />
-  <project path="vendor/unbundled_google" name="vendor_unbundled_google" remote="revolt" revision="jb-mr2" />
-  <project path="vendor/audience" name="proprietary_vendor_audience" remote="muppets" revision="cm-11.0" />
-  <project path="vendor/oppo" name="proprietary_vendor_oppo" remote="muppets" revision="cm-11.0" />
+  <project path="vendor/sony" name="vendor_sony" remote="aokp" revision="kitkat" />
+
   <!--<project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr1" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="vendor_tmobile_libs_com.tmobile.themes" remote="aokp" revision="jb-mr1" />
   <project path="vendor/tmobile/providers/ThemeManager" name="vendor_tmobile_providers_ThemeManager" remote="aokp" revision="jb-mr1" />-->
