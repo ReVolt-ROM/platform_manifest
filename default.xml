@@ -79,7 +79,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="aokp" revision="kitkat" />
-  <project path="device/lge/mako" name="device_lge_mako" remote="aokp" revision="kitkat" />
+  <project path="device/lge/mako" name="device_lge_mako" remote="revolt" revision="kitkat" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/motorola/msm8960-common" name="android_device_motorola_msm8960-common" remote="cm" revision="cm-11.0" />
   <project path="device/motorola/qcom-common" name="android_device_motorola_qcom-common" remote="revolt-moto" revision="cm-11.0" />
