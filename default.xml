@@ -393,7 +393,7 @@
   <project path="hardware/ti/wlan" name="hardware_ti_wlan" remote="aokp" revision="kitkat" />
   <project path="hardware/ti/wpan" name="hardware_ti_wpan" remote="aokp" revision="kitkat" />
 
-  <project path="libcore" name="platform/libcore" />
+  <project path="libcore" name="libcore" remote="revolt" revision="kitkat" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
   
