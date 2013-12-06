@@ -410,7 +410,7 @@
   <project path="kernel/samsung/exynos5410" name="intervigilium/android_kernel_samsung_exynos5410" remote="github" revision="cm-11.0" />
   <project path="kernel/samsung/jf" name="kernel_samsung_jf" remote="aokp" revision="kitkat" />
   <project path="kernel/samsung/manta" name="android_kernel_samsung_manta" remote="cm" revision="cm-11.0" />
-  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="cm" revision="cm-11.0" />
+  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="omnirom" revision="android-4.4" />
   <project path="kernel/samsung/t1" name="android_kernel_samsung_t1" remote="cm" revision="cm-11.0" />
   <project path="kernel/samsung/tuna" name="imoseyon/leanKernel-galaxy-nexus" remote="github" revision="lk-jb-mr2" />
   <project path="kernel/sony/apq8064" name="android_kernel_sony_apq8064" remote="cm" revision="cm-11.0" />
