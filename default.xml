@@ -334,7 +334,7 @@
   <project path="external/zxing" name="platform/external/zxing" />
   
   <!-- Frameworks -->
-  <project path="frameworks/av" name="frameworks_av" remote="revolt" revision="kitkat" />
+  <project path="frameworks/av" name="frameworks_av" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="frameworks/base" name="frameworks_base" remote="revolt" revision="kitkat" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
@@ -342,21 +342,21 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="frameworks_native" remote="revolt" revision="kitkat" />
+  <project path="frameworks/native" name="frameworks_native" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
-  <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
-  <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" />
+  <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker"/>
+  <project path="frameworks/opt/datetimepicker" name="frameworks_opt_datetimepicker" remote="aokp" revision="kitkat" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
-  <project path="frameworks/opt/mms" name="android_frameworks_opt_mms" remote="omnirom" revision="android-4.4" />
+  <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="revolt" revision="kitkat" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
-  <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
+  <project path="frameworks/rs" name="frameworks_rs" remote="aokp" revision="kitkat"  groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/uiautomator" name="platform/frameworks/uiautomator" />
