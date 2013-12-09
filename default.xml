@@ -376,6 +376,7 @@
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="aokp" revision="kitkat" groups="qcom" />
   <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="aokp" revision="kitkat" groups="caf" />
+  <project path="hardware/qcom/display-mdss" name="hardware_qcom_display-mdss" remote="aokp" revision="kitkat" groups="caf" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="aokp" revision="kitkat" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="aokp" revision="kitkat" groups="qcom" />
   <project path="hardware/qcom/media" name="hardware_qcom_media" remote="aokp" revision="kitkat" groups="qcom" />
@@ -540,13 +541,13 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/core" name="system_core" remote="revolt" revision="kitkat" />
-  <project path="system/extras" name="android_system_extras" remote="cm" revision="cm-11.0" />
-  <project path="system/media" name="system_media" remote="revolt" revision="kitkat" />
-  <project path="system/netd" name="platform/system/netd" />
-  <project path="system/qcom" name="android_system_qcom" remote="cm" revision="cm-11.0" groups="pdk" />
-  <project path="system/security" name="platform/system/security" />
-  <project path="system/vold" name="android_system_vold" remote="cm" revision="cm-11.0" />
+  <project path="system/core" name="system_core" remote="revolt" revision="kitkat" groups="pdk" />
+  <project path="system/extras" name="system_extras" remote="aokp" revision="kitkat" groups="pdk" />
+  <project path="system/media" name="system_media" remote="aokp" revision="kitkat" groups="pdk" />
+  <project path="system/netd" name="system_netd" remote="aokp" revision="kitkat" groups="pdk" />
+  <project path="system/qcom" name="system_qcom" remote="aokp" revision="kitkat" groups="pdk" />
+  <project path="system/security" name="platform/system/security" groups="pdk" />
+  <project path="system/vold" name="system_vold" remote="aokp" revision="kitkat" groups="pdk" />
 <!--
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
