@@ -146,7 +146,7 @@
   <project path="external/arduino" name="platform/external/arduino" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="aokp" revision="kitkat" groups="pdk" />
+  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/busybox" name="external_busybox" remote="aokp" revision="kitkat" />
@@ -180,7 +180,7 @@
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" />
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" />
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" />
-  <project path="external/clang" name="platform/external/clang" groups="pdk" />
+  <project path="external/clang" name="external_clang" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
@@ -288,7 +288,7 @@
   <project path="external/open-vcdiff" name="platform/external/open-vcdiff" />
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
-  <project path="external/openssh" name="platform/external/openssh" />
+  <project path="external/openssh" name="external_openssh" remote="aokp" revision="kitkat" />
   <project path="external/openssl" name="platform/external/openssl" groups="pdk" />
   <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/pigz" name="external_pigz" remote="aokp" revision="kitkat" />
@@ -371,35 +371,33 @@
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
 
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="aokp" revision="kitkat" groups="pdk" />
-  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="aokp" revision="kitkat" groups="broadcom_wlan" />
+  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="cm" revision="cm-11.0" groups="pdk" />
+  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm" revision="cm-11.0" groups="broadcom_wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="hardware_libhardware" remote="aokp" revision="kitkat" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="aokp" revision="kitkat" groups="pdk" />
-  <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="aokp" revision="kitkat" groups="qcom" />
-  <project path="hardware/qcom/audio-caf" name="hardware_qcom_audio-caf" remote="aokp" revision="kitkat" groups="caf" />
-  <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="aokp" revision="kitkat" groups="qcom" />
-  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
-  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="aokp" revision="kitkat" groups="qcom" />
-  <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="aokp" revision="kitkat" groups="caf" />
-  <project path="hardware/qcom/display-mdss" name="hardware_qcom_display-mdss" remote="aokp" revision="kitkat" groups="caf" />
-  <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="aokp" revision="kitkat" groups="qcom" />
-  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="aokp" revision="kitkat" groups="qcom" />
-  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="aokp" revision="kitkat" groups="qcom" />
-  <project path="hardware/qcom/media-caf" name="hardware_qcom_media-caf" remote="aokp" revision="kitkat" groups="caf" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="cm-11.0" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" revision="cm-11.0" groups="pdk" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="cm" revision="cm-11.0" groups="qcom" />
+  <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="cm" revision="cm-11.0" groups="caf" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" revision="cm-11.0" groups="qcom" />
+  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom" remote="cm" revision="cm-11.0" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="cm-11.0" groups="qcom" />
+  <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="cm" revision="cm-11.0" groups="caf" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="cm-11.0" groups="qcom" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="cm" revision="cm-11.0" groups="qcom" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cm" revision="cm-11.0" groups="qcom" />
+  <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="cm" revision="cm-11.0" groups="caf" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
-  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="aokp" revision="kitkat" />
+  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
-  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="aokp" revision="kitkat" />
-  <project path="hardware/ril" name="hardware_ril" remote="aokp" revision="kitkat" groups="pdk" />
-  <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="cm-11.0" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="cm" revision="cm-11.0" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="cm" revision="cm-11.0" groups="pdk" />
+  <project path="hardware/samsung" name="hardware_samsung" remote="aokp" revision="kitkat" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
   <project path="hardware/sony/DASH" name="android_hardware_sony_DASH" remote="cm" revision="cm-11.0" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
-  <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="aokp" revision="kitkat" />
+  <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="cm" revision="cm-11.0" />
   <project path="hardware/ti/wlan" name="hardware_ti_wlan" remote="aokp" revision="kitkat" />
-  <project path="hardware/ti/wpan" name="hardware_ti_wpan" remote="aokp" revision="kitkat" />
 
   <project path="libcore" name="libcore" remote="aokp" revision="kitkat" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
@@ -426,12 +424,12 @@
   <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="aokp" revision="kitkat" />
-  <project path="packages/apps/BluetoothExt" name="packages_apps_BluetoothExt" remote="aokp" revision="kitkat" />
+  <project path="packages/apps/BluetoothExt" name="android_packages_apps_BluetoothExt" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
-  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" />
+  <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="aokp" revision="kitkat" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
@@ -470,7 +468,7 @@
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
-  <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
+  <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" groups="notdefault,legacypackages" />
   <project path="packages/apps/VoicePlus" name="android_packages_apps_VoicePlus" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Welcome" name="packages_apps_Welcome" remote="revolt" revision="kitkat" />
   <project path="packages/experimental" name="platform/packages/experimental" />
@@ -550,7 +548,7 @@
   <project path="system/core" name="system_core" remote="revolt" revision="kitkat" groups="pdk" />
   <project path="system/extras" name="system_extras" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="system/media" name="system_media" remote="revolt" revision="kitkat" groups="pdk" />
-  <project path="system/netd" name="system_netd" remote="aokp" revision="kitkat" groups="pdk" />
+  <project path="system/netd" name="android_system_netd" remote="cm" revision="kitkat" groups="pdk" />
   <project path="system/qcom" name="system_qcom" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="system_vold" remote="aokp" revision="kitkat" groups="pdk" />
