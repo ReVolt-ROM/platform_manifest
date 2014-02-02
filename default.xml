@@ -78,6 +78,10 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
+  <project path="device/htc/m7" name="device_htc_m7" remote="aokp" revision="kitkat" />
+  <project path="device/htc/m7-common" name="device_htc_m7-common" remote="aokp" revision="kitkat" />
+  <project path="device/htc/m7spr" name="device_htc_m7spr" remote="aokp" revision="kitkat" />
+  <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="aokp" revision="kitkat" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="aokp" revision="kitkat" />
   <project path="device/lge/mako" name="device_lge_mako" remote="revolt" revision="kitkat" />
   <project path="device/sample" name="device/sample" groups="pdk" />
@@ -90,6 +94,8 @@
   <project path="device/motorola/xt925" name="android_device_motorola_xt925" remote="cm" revision="cm-11.0" />
   <project path="device/motorola/xt926" name="android_device_motorola_xt926" remote="cm" revision="cm-11.0" />
   <project path="device/oppo/find5" name="device_oppo_find5" remote="aokp" revision="kitkat" />
+  <project path="device/oppo/n1" name="device_oppo_n1" remote="aokp" revision="kitkat" />
+  <project path="device/oppo/apq8064-common" name="device_oppo_apq8064-common" remote="aokp" revision="kitkat" />
   <project path="device/samsung/galaxys2-common" name="android_device_samsung_galaxys2-common" remote="cm" revision="cm-11.0" />
   <project path="device/samsung/i9100" name="android_device_samsung_i9100" remote="cm" revision="cm-11.0" />
   <project path="device/samsung/i9100g" name="android_device_samsung_i9100g" remote="cm" revision="cm-11.0" />
@@ -110,12 +116,6 @@
   <project path="device/samsung/jfltevzw" name="android_device_samsung_jfltevzw" remote="cm" revision="cm-11.0" />
   <project path="device/samsung/jfltespr" name="android_device_samsung_jfltespr" remote="cm" revision="cm-11.0" />
   <project path="device/samsung/jflteatt" name="android_device_samsung_jflteatt" remote="cm" revision="cm-11.0" />
-  <project path="device/htc/m7-common" name="device_htc_m7-common" remote="aokp" revision="kitkat" />
-  <project path="device/htc/m7att" name="device_htc_m7att" remote="aokp" revision="kitkat" />
-  <project path="device/htc/m7spr" name="device_htc_m7spr" remote="aokp" revision="kitkat" />
-  <project path="device/htc/m7tmo" name="device_htc_m7tmo" remote="aokp" revision="kitkat" />
-  <project path="device/htc/m7ul" name="device_htc_m7ul" remote="aokp" revision="kitkat" />
-  <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="cm" revision="cm-11.0" />
   <!--<project path="device/samsung/n8000" name="android_device_samsung_n8000" remote="cm" revision="cm-10.2" />
   <project path="device/samsung/n8013" name="android_device_samsung_n8013" remote="cm" revision="cm-10.2" />
   <project path="device/samsung/n80xx-common" name="android_device_samsung_n80xx-common" remote="revolt" revision="jb-mr2" />-->
@@ -361,7 +361,7 @@
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="revolt" revision="kitkat" groups="pdk" />
-  <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
+  <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="cm" revision="cm-11.0" />
   <project path="frameworks/rs" name="frameworks_rs" remote="aokp" revision="kitkat"  groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
@@ -408,8 +408,9 @@
   <project path="kernel/lge/hammerhead" name="android_kernel_lge_hammerhead" remote="cm" revision="cm-11.0" />
   <project path="kernel/lge/mako" name="kernel_lge_mako" remote="aokp" revision="kitkat" />
   <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="cm" revision="cm-11.0" />
-  <project path="kernel/htc/m7" name="kernel_htc_m7" remote="aokp" revision="kitkat" />
+  <project path="kernel/htc/msm8960" name="kernel_htc_msm8960" remote="aokp" revision="kitkat" />
   <project path="kernel/oppo/find5" name="android_kernel_oppo_find5" remote="cm" revision="cm-11.0" />
+  <project path="kernel/oppo/n1" name="android_kernel_oppo_n1" remote="cm" revision="cm-11.0" />
   <project path="kernel/motorola/msm8960-common" name="android_kernel_motorola_msm8960-common" remote="cm" revision="cm-11.0" />
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="cm-11.0" />
   <project path="kernel/samsung/exynos5410" name="intervigilium/android_kernel_samsung_exynos5410" remote="github" revision="cm-11.0" />
@@ -423,7 +424,7 @@
   <!-- Applications -->
   <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="aokp" revision="kitkat" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/BluetoothExt" name="android_packages_apps_BluetoothExt" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="revolt" revision="kitkat" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
