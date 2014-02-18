@@ -100,7 +100,7 @@
   <project path="device/samsung/i9100" name="android_device_samsung_i9100" remote="cm" revision="cm-11.0" />
   <project path="device/samsung/i9100g" name="android_device_samsung_i9100g" remote="cm" revision="cm-11.0" />
   <project path="device/samsung/i9300" name="device_samsung_i9300" remote="aokp" revision="kitkat" />
-  <project path="device/samsung/i9500" name="intervigilium/android_device_samsung_i9500" remote="github" revision="cm-11.0" />
+  <project path="device/samsung/i9500" name="android_device_samsung_i9500" remote="cm" revision="cm-11.0" />
   <project path="device/samsung/n7000" name="android_device_samsung_n7000" remote="cm" revision="cm-11.0" />
   <project path="device/samsung/n7100" name="android_device_samsung_n7100" remote="revolt" revision="android-4.4" />
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="cm" revision="cm-11.0" />
@@ -373,6 +373,7 @@
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm" revision="cm-11.0" groups="broadcom_wlan" />
+  <project path="hardware/cm" name="android_hardware_cm" remote="cm" revision="cm-11.0" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" revision="cm-11.0" groups="pdk" />
@@ -393,6 +394,10 @@
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="cm" revision="cm-11.0" />
   <project path="hardware/ril" name="android_hardware_ril" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="hardware/samsung" name="hardware_samsung" remote="aokp" revision="kitkat" />
+  <project path="hardware/samsung_slsi/exynos" name="android_hardware_samsung_slsi_exynos" remote="cm" revision="cm-11.0" />
+  <project path="hardware/samsung_slsi/exynos5-insignal" name="android_hardware_samsung_slsi_exynos5-insignal" remote="cm" revision="cm-11.0" />
+  <project path="hardware/samsung_slsi/exynos5410" name="android_hardware_samsung_slsi_exynos5410" remote="cm" revision="cm-11.0" />
+  <project path="hardware/samsung_slsi/openmax" name="android_hardware_samsung_slsi_openmax" remote="cm" revision="cm-11.0" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
   <project path="hardware/sony/DASH" name="android_hardware_sony_DASH" remote="cm" revision="cm-11.0" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
@@ -413,7 +418,7 @@
   <project path="kernel/oppo/n1" name="android_kernel_oppo_n1" remote="cm" revision="cm-11.0" />
   <project path="kernel/motorola/msm8960-common" name="android_kernel_motorola_msm8960-common" remote="cm" revision="cm-11.0" />
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="cm-11.0" />
-  <project path="kernel/samsung/exynos5410" name="intervigilium/android_kernel_samsung_exynos5410" remote="github" revision="cm-11.0" />
+  <project path="kernel/samsung/exynos5410" name="android_kernel_samsung_exynos5410" remote="cm" revision="cm-11.0" />
   <project path="kernel/samsung/jf" name="android_kernel_samsung_jf" remote="cm" revision="cm-11.0" />
   <project path="kernel/samsung/manta" name="android_kernel_samsung_manta" remote="cm" revision="cm-11.0" />
   <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="omnirom" revision="android-4.4" />
