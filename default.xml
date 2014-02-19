@@ -23,9 +23,6 @@
   <remote name="revolt"
           fetch="https://github.com/ReVolt-ROM/" />
           
-  <remote name="revolt-moto"
-          fetch="https://github.com/ReVolt-Moto/" />
-          
   <remote name="revolt-sam"
           fetch="https://github.com/ReVolt-SAM/" />
 
@@ -86,9 +83,9 @@
   <project path="device/lge/mako" name="device_lge_mako" remote="revolt" revision="kitkat" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/motorola/msm8960-common" name="android_device_motorola_msm8960-common" remote="cm" revision="cm-11.0" />
-  <project path="device/motorola/qcom-common" name="android_device_motorola_qcom-common" remote="revolt-moto" revision="cm-11.0" />
+  <project path="device/motorola/qcom-common" name="android_device_motorola_qcom-common" remote="cm" revision="cm-11.0" />
   <project path="device/motorola/mb886" name="android_device_motorola_mb886" remote="cm" revision="cm-11.0" />
-  <project path="device/motorola/xt897" name="android_device_motorola_xt897" remote="revolt-moto" revision="cm-10.2" />
+  <project path="device/motorola/xt897" name="android_device_motorola_xt897" remote="cm" revision="cm-11.0" />
   <project path="device/motorola/xt897c" name="android_device_motorola_xt897c" remote="cm" revision="cm-11.0" />
   <project path="device/motorola/xt907" name="android_device_motorola_xt907" remote="cm" revision="cm-11.0" />
   <project path="device/motorola/xt925" name="android_device_motorola_xt925" remote="cm" revision="cm-11.0" />
@@ -584,7 +581,7 @@
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="muppets" revision="cm-11.0" />
   <project path="vendor/oppo" name="vendor_oppo" remote="aokp" revision="kitkat" />
   <project path="vendor/revolt" name="vendor_revolt" remote="revolt" revision="kitkat" />
-  <project path="vendor/samsung" name="intervigilium/proprietary_vendor_samsung" remote="github" revision="cm-11.0" />
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="muppets" revision="cm-11.0" />
   <project path="vendor/sony" name="vendor_sony" remote="aokp" revision="kitkat" />
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-11.0" />
