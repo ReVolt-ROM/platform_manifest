@@ -36,7 +36,7 @@
   <remote  name="paranoid"
            fetch="git://github.com/ParanoidAndroid/" />
 
-  <default revision="refs/tags/android-4.4.1_r1"
+  <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
            sync-j="4" />
 
