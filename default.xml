@@ -253,6 +253,7 @@
   <project path="external/libppp" name="platform/external/libppp" />
   <project path="external/libselinux" name="external_libselinux" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="external/libsepol" name="external_libsepol" remote="aokp" revision="kitkat" />
+  <project path="external/libtar" name="android_external_libtar" remote="cm" revision="cm-11.0" />
   <project path="external/libusb" name="android_external_libusb" remote="cm" revision="cm-11.0" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" />
   <project path="external/libvorbis" name="platform/external/libvorbis" />
