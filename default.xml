@@ -571,6 +571,7 @@
 
   <!-- Vendors -->
   <project path="vendor/asus" name="vendor_asus" remote="aokp" revision="kitkat" />
+  <project path="vendor/cm" name="android_vendor_cm" remote="cm" revision="cm-11.0" />
   <project path="vendor/htc" name="vendor_htc" remote="aokp" revision="kitkat" />
   <project path="vendor/lge" name="vendor_lge" remote="aokp" revision="kitkat" />
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="muppets" revision="cm-11.0" />
