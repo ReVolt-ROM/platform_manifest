@@ -455,6 +455,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="notdefault,legacypackages" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/ReVoltControl" name="packages_apps_ReVoltControl" remote="revolt" revision="kitkat" />
+  <project path="packages/apps/ReVoltOTA" name="packages_apps_ReVoltOTA" remote="revolt" revision="kitkat" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="notdefault,legacypackages" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="revolt" revision="kitkat" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
