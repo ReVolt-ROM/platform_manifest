@@ -290,7 +290,7 @@
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" />
   <project path="external/qemu" name="android_external_qemu" remote="cm" revision="cm-11.0" />
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" />
-  <project path="external/qrngd" name="external_qrngd" remote="aokp" revision="kitkat" />
+  <project path="external/qrngd" name="android_external_qrngd" remote="cm" revision="cm-11.0" />
   <project path="external/regex-re2" name="android_external_regex-re2" remote="cm" revision="cm-11.0" />
   <project path="external/replicaisland" name="platform/external/replicaisland" />
   <project path="external/robolectric" name="platform/external/robolectric" />
@@ -403,10 +403,10 @@
   <project path="ndk" name="platform/ndk" />
   
   <!-- Kernels -->
-  <project path="kernel/asus/flo" name="kernel_asus_flo" remote="aokp" revision="kitkat" />
   <project path="kernel/lge/hammerhead" name="android_kernel_lge_hammerhead" remote="cm" revision="cm-11.0" />
   <project path="kernel/lge/mako" name="kernel_lge_mako" remote="aokp" revision="kitkat" />
   <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="cm" revision="cm-11.0" />
+  <project path="kernel/google/msm" name="android_kernel_google_msm" remote="cm" revision="cm-11.0" />
   <project path="kernel/htc/msm8960" name="android_kernel_htc_msm8960" remote="cm" revision="cm-11.0" />
   <project path="kernel/oppo/find5" name="android_kernel_oppo_find5" remote="cm" revision="cm-11.0" />
   <project path="kernel/oppo/n1" name="android_kernel_oppo_n1" remote="cm" revision="cm-11.0" />
