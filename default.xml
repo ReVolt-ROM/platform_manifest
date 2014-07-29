@@ -404,7 +404,7 @@
   
   <!-- Kernels -->
   <project path="kernel/lge/hammerhead" name="android_kernel_lge_hammerhead" remote="cm" revision="cm-11.0" />
-  <project path="kernel/lge/mako" name="kernel_lge_mako" remote="aokp" revision="kitkat" />
+  <project path="kernel/lge/mako" name="kernel_lge_mako" remote="revolt" revision="kitkat" />
   <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="cm" revision="cm-11.0" />
   <project path="kernel/google/msm" name="android_kernel_google_msm" remote="cm" revision="cm-11.0" />
   <project path="kernel/htc/msm8960" name="android_kernel_htc_msm8960" remote="cm" revision="cm-11.0" />
