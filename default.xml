@@ -43,7 +43,7 @@
   <project path="build" name="android_build" remote="revolt" revision="kitkat" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="buildscripts" name="buildscripts" remote="revolt" revision="jb-mr2" >
+  <project path="buildscripts" name="buildscripts" remote="revolt" revision="kitkat" >
     <copyfile src="build_revolt.sh" dest="build_revolt.sh" />
     <copyfile src="build.sh" dest="build.sh" />
   </project>
