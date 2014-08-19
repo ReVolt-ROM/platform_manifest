@@ -95,7 +95,7 @@
   <project path="device/oppo/find5" name="device_oppo_find5" remote="aokp" revision="kitkat" />
   <project path="device/oppo/n1" name="device_oppo_n1" remote="aokp" revision="kitkat" />
   <project path="device/oppo/apq8064-common" name="device_oppo_apq8064-common" remote="aokp" revision="kitkat" />
-  <project path="device/samsung/galaxys2-common" name="android_device_samsung_galaxys2-common" remote="cm" revision="cm-11.0" />
+  <project path="device/samsung/galaxys2-common" name="device_samsung_galaxys2-common" remote="revolt" revision="kitkat" />
   <project path="device/samsung/i9100" name="android_device_samsung_i9100" remote="cm" revision="cm-11.0" />
   <project path="device/samsung/i9100g" name="android_device_samsung_i9100g" remote="cm" revision="cm-11.0" />
   <project path="device/samsung/i9300" name="device_samsung_i9300" remote="aokp" revision="kitkat" />
