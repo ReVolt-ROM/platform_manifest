@@ -83,6 +83,8 @@
   <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="aokp" revision="kitkat" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="aokp" revision="kitkat" />
   <project path="device/lge/mako" name="device_lge_mako" remote="revolt" revision="kitkat" />
+  <project path="device/lge/vs980" name="android_device_lge_vs980" remote="cm" revision="cm-11.0" />
+  <project path="device/lge/g2-common" name="android_device_lge_g2-common" remote="cm" revision="cm-11.0" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/motorola/msm8960-common" name="android_device_motorola_msm8960-common" remote="cm" revision="cm-11.0" />
   <project path="device/motorola/qcom-common" name="android_device_motorola_qcom-common" remote="cm" revision="cm-11.0" />
@@ -380,10 +382,12 @@
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="cm-11.0" groups="qcom" />
   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="cm" revision="cm-11.0" groups="caf" />
+  <project path="hardware/qcom/display-mdss" name="android_hardware_qcom_display-mdss" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="cm-11.0" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="cm" revision="cm-11.0" groups="qcom" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cm" revision="cm-11.0" groups="qcom" />
   <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="cm" revision="cm-11.0" groups="caf" />
+  <project path="hardware/qcom/media-v4l2" name="android_hardware_qcom_media-v4l2" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" revision="cm-11.0" />
@@ -409,6 +413,7 @@
   <!-- Kernels -->
   <project path="kernel/lge/hammerhead" name="android_kernel_lge_hammerhead" remote="cm" revision="cm-11.0" />
   <project path="kernel/lge/mako" name="kernel_lge_mako" remote="revolt" revision="kitkat" />
+  <project path="kernel/lge/msm8974" name="android_kernel_lge_msm8974" remote="cm" revision="cm-11.0" />
   <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="cm" revision="cm-11.0" />
   <project path="kernel/google/msm" name="android_kernel_google_msm" remote="cm" revision="cm-11.0" />
   <project path="kernel/htc/msm8960" name="android_kernel_htc_msm8960" remote="cm" revision="cm-11.0" />
