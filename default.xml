@@ -83,8 +83,8 @@
   <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="aokp" revision="kitkat" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="aokp" revision="kitkat" />
   <project path="device/lge/mako" name="device_lge_mako" remote="revolt" revision="kitkat" />
-  <project path="device/lge/vs980" name="android_device_lge_vs980" remote="cm" revision="cm-11.0" />
-  <project path="device/lge/g2-common" name="android_device_lge_g2-common" remote="cm" revision="cm-11.0" />
+  <project path="device/lge/vs980" name="device_lge_vs980" remote="aokp" revision="kitkat" />
+  <project path="device/lge/g2-common" name="device_lge_g2-common" remote="aokp" revision="kitkat" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/motorola/msm8960-common" name="android_device_motorola_msm8960-common" remote="cm" revision="cm-11.0" />
   <project path="device/motorola/qcom-common" name="android_device_motorola_qcom-common" remote="cm" revision="cm-11.0" />
