@@ -104,7 +104,7 @@
   <project path="device/samsung/i9100g" name="device_samsung_i9100g" remote="revolt" revision="kitkat" />
   <project path="device/samsung/i9300" name="device_samsung_i9300" remote="revolt" revision="kitkat" />
   <project path="device/samsung/i9500" name="android_device_samsung_i9500" remote="cm" revision="cm-11.0" />
-  <project path="device/samsung/n7000" name="android_device_samsung_n7000" remote="cm" revision="cm-11.0" />
+  <project path="device/samsung/n7000" name="android_device_samsung_n7000" remote="revolt" revision="kitkat" />
   <project path="device/samsung/n7100" name="android_device_samsung_n7100" remote="revolt" revision="kitkat" />
   <project path="device/samsung/d2lte" name="device_samsung_d2lte" remote="aokp" revision="kitkat" />
   <project path="device/samsung/jflte" name="device_samsung_jflte" remote="aokp" revision="kitkat" />
