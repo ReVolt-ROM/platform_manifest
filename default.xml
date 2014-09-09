@@ -80,6 +80,7 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/htc/m7" name="device_htc_m7" remote="aokp" revision="kitkat" />
   <project path="device/htc/m7-common" name="device_htc_m7-common" remote="aokp" revision="kitkat" />
+  <project path="device/htc/m8" name="device_htc_m8" remote="aokp" revision="kitkat" />
   <project path="device/htc/m7spr" name="device_htc_m7spr" remote="aokp" revision="kitkat" />
   <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="aokp" revision="kitkat" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="aokp" revision="kitkat" />
@@ -385,6 +386,7 @@
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="cm-11.0" groups="qcom" />
   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="cm" revision="cm-11.0" groups="caf" />
+  <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" remote="cm" revision="cm-11.0" groups="caf" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="cm-11.0" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="cm" revision="cm-11.0" groups="qcom" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cm" revision="cm-11.0" groups="qcom" />
@@ -418,6 +420,7 @@
   <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="cm" revision="cm-11.0" />
   <project path="kernel/google/msm" name="android_kernel_google_msm" remote="cm" revision="cm-11.0" />
   <project path="kernel/htc/msm8960" name="android_kernel_htc_msm8960" remote="cm" revision="cm-11.0" />
+  <project path="kernel/htc/msm8974" name="android_kernel_htc_msm8974" remote="cm" revision="cm-11.0" groups="notdefault,kernel,m8" />
   <project path="kernel/oppo/find5" name="android_kernel_oppo_find5" remote="cm" revision="cm-11.0" />
   <project path="kernel/oppo/n1" name="android_kernel_oppo_n1" remote="cm" revision="cm-11.0" />
   <project path="kernel/motorola/msm8960-common" name="android_kernel_motorola_msm8960-common" remote="cm" revision="cm-11.0" />
