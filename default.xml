@@ -226,6 +226,7 @@
   <project path="external/jack" name="platform/external/jack" />
   <project path="external/javasqlite" name="android_external_javasqlite" remote="cm" revision="cm-11.0" />
   <project path="external/javassist" name="platform/external/javassist" />
+  <project path="external/jbirdvegas/mGerrit" name="AOKP/external_jbirdvegas_mGerrit" remote="aokp" revision="master" />
   <project path="external/jdiff" name="platform/external/jdiff" />
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" />
   <project path="external/jmdns" name="platform/external/jmdns" />
