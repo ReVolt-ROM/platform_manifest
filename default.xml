@@ -420,7 +420,7 @@
   <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="cm" revision="cm-11.0" />
   <project path="kernel/google/msm" name="android_kernel_google_msm" remote="cm" revision="cm-11.0" />
   <project path="kernel/htc/msm8960" name="android_kernel_htc_msm8960" remote="cm" revision="cm-11.0" />
-  <project path="kernel/htc/msm8974" name="android_kernel_htc_msm8974" remote="cm" revision="cm-11.0" groups="notdefault,kernel,m8" />
+  <project path="kernel/htc/msm8974" name="android_kernel_htc_msm8974" remote="cm" revision="cm-11.0" />
   <project path="kernel/oppo/find5" name="android_kernel_oppo_find5" remote="cm" revision="cm-11.0" />
   <project path="kernel/oppo/n1" name="android_kernel_oppo_n1" remote="cm" revision="cm-11.0" />
   <project path="kernel/motorola/msm8960-common" name="android_kernel_motorola_msm8960-common" remote="cm" revision="cm-11.0" />
