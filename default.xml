@@ -386,6 +386,7 @@
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="cm-11.0" groups="qcom" />
   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="cm" revision="cm-11.0" groups="caf" />
+  <project path="hardware/qcom/display-caf-new" name="android_hardware_qcom_display-caf-new" remote="cm" revision="cm-11.0" groups="caf" />
   <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" remote="cm" revision="cm-11.0" groups="caf" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="cm-11.0" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="cm" revision="cm-11.0" groups="qcom" />
