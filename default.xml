@@ -21,7 +21,8 @@
           fetch="https://github.com/" />
 
   <remote name="revolt"
-          fetch="https://github.com/ReVolt-ROM/" />
+          fetch="https://github.com/ReVolt-ROM/"
+          review="http://revoltrom.com:8080" />
           
   <remote name="revolt-sam"
           fetch="https://github.com/ReVolt-SAM/" />
