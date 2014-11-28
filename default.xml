@@ -27,10 +27,10 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="ReVolt-ROM/build" groups="pdk,tradefed" remote="revolt" revision="lollipop" >
+  <project path="build" name="ReVolt-ROM/android_build" groups="pdk,tradefed" remote="revolt" revision="lollipop" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="buildscripts" name="ReVolt-ROM/buildscripts" remote="revolt" revision="kitkat" >
+  <project path="buildscripts" name="ReVolt-ROM/buildscripts" remote="revolt" revision="lollipop" >
     <copyfile src="build_revolt.sh" dest="build_revolt.sh" />
     <copyfile src="build.sh" dest="build.sh" />
   </project>
