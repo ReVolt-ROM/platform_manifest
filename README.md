@@ -1,11 +1,11 @@
-ReVolt KK ROM
+ReVolt Lollipop ROM (WIP)
 ======================
 
 Syncing Sources
 ---------------
 Intialize your computer by syncing with latest sources via this command :
 
-    repo init -u git://github.com/ReVolt-ROM/platform_manifest.git -b kitkat
+    repo init -u git://github.com/ReVolt-ROM/platform_manifest.git -b lollipop
 
 then run to get the actual sources
 
@@ -15,7 +15,7 @@ It might take a lot of time depending on your internet connection ..
 
  # is replaced with threads you want to use
 
-Building REVOLT ROM (Still not fully ready with KitKat)
+Building REVOLT ROM (Still not fully ready for Lollipop)
 ------------------------------------------------------
 
 
